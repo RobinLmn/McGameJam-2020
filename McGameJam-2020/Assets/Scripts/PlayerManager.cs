@@ -43,7 +43,7 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
-    private void Die()
+    public void Die()
     {
         gm.g_playerDead = true;
         Debug.Log("Player has died");
