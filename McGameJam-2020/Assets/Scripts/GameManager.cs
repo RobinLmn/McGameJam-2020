@@ -20,13 +20,17 @@ public class GameManager : MonoBehaviour
     /// Boolean used to determined if player filled victory conditions
     /// </summary>
     [SerializeField]
-    bool g_gameEnd = false;
+    public bool g_gameEnd = false;
 
     /// <summary>
     /// Boolean used to check if player is dead
     /// </summary>
     [SerializeField]
     public bool g_playerDead = false;
+
+    // Rocket mechanics 
+    private int RocketParts = 3;
+    public int invRocket;
 
     #endregion
 
@@ -49,6 +53,11 @@ public class GameManager : MonoBehaviour
         if (g_gameEnd == true)
         {
             Victory();
+        }
+
+        if (invRocket == RocketParts)
+        {
+            g_gameEnd = true;
         }
     }
 
@@ -84,4 +93,6 @@ public class GameManager : MonoBehaviour
     }
 
     #endregion
+
+
 }

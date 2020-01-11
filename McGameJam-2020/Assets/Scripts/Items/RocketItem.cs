@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RocketItem : MonoBehaviour
+public class RocketItem : Interactable
 {
-    // Start is called before the first frame update
-    void Start()
+
+    GameManager gm;
+
+    private void Start()
     {
-        
+        gm = FindObjectOfType<GameManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public override void Interact()
     {
-        
+        gm.invRocket++;
+        base.Interact();
     }
 }

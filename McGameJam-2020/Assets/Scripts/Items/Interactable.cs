@@ -21,7 +21,7 @@ public class Interactable : MonoBehaviour
         PickUp();
     }
 
-    void Update()
+    private void Update()
     {
         // If we are currently being focused
         // and we haven't already interacted with the object

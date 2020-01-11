@@ -24,7 +24,7 @@ public class PlayerManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (oxLevel != 0)
+        if (oxLevel >= 0)
         {
             oxLevel -= oxLossRate * Time.deltaTime;
         }
