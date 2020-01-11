@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     // public GameObject player;
     //PlayerMotor motor;
     Camera mainCam;
-    private bool platform = true;
+    private bool platform = false;
     public float rotatingSpeed;
 
     void Start()
