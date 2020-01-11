@@ -8,6 +8,7 @@ public class BaseInteract : Interactable
 
     GameManager gm;
 
+
     #endregion
 
     #region Base Methods
@@ -18,9 +19,9 @@ public class BaseInteract : Interactable
     }
 
     // Update is called once per frame
-    void Update()
+    public override void Update()
     {
-        
+        base.Update();
     }
 
     #endregion
