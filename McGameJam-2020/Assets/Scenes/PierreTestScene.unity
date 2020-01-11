@@ -5571,5 +5571,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DayNight
       objectReference: {fileID: 0}
+    - target: {fileID: 21316572387042796, guid: 4e3ae1d2b0f98594c83b4263972b2ec0,
+        type: 3}
+      propertyPath: m_Flare
+      value: 
+      objectReference: {fileID: 12100000, guid: 09ebe82dbd1113c3d000dc0b8d76c639,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e3ae1d2b0f98594c83b4263972b2ec0, type: 3}
