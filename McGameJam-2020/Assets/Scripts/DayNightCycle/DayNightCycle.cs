@@ -55,6 +55,8 @@ public class DayNightCycle : MonoBehaviour
     /// </summary>
     private float g_intensity;
 
+    [SerializeField]
+    private Gradient g_sunColour;
     
     #endregion
 
@@ -69,6 +71,7 @@ public class DayNightCycle : MonoBehaviour
 
             SunRotation();
             SunIntensity();
+            AdjustColour();
         }
     }
 
@@ -115,9 +118,16 @@ public class DayNightCycle : MonoBehaviour
         g_intensity = Vector3.Dot(g_sun.transform.forward, Vector3.down);
         g_intensity = Mathf.Clamp01(g_intensity);
 
-        g_sun.intensity = g_intensity * VARIATION * BASEINTENSITY;
+        g_sun.intensity = g_intensity * VARIATION + BASEINTENSITY;
     }
 
+    /// <summary>
+    /// Adjust sun colour
+    /// </summary>
+    private void AdjustColour()
+    {
+        g_sun.color = g_sunColour.Evaluate(g_intensity);
+    }
     #endregion
 
 }
