@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 77
+  controlID: 31
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,12 +134,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1018
+    width: 1160
     height: 749
   m_MinSize: {x: 436, y: 494}
   m_MaxSize: {x: 14006, y: 14044}
   vertical: 1
-  controlID: 78
+  controlID: 32
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,12 +159,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1018
+    width: 1160
     height: 475
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 79
+  controlID: 33
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,7 +182,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 578
+    width: 658
     height: 475
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
@@ -208,12 +208,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 578
+    x: 658
     y: 0
-    width: 440
+    width: 502
     height: 475
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -238,12 +238,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 475
-    width: 1018
+    width: 1160
     height: 274
   m_MinSize: {x: 436, y: 272}
   m_MaxSize: {x: 14006, y: 10022}
   vertical: 0
-  controlID: 103
+  controlID: 85
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,7 +261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 711
+    width: 809
     height: 274
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
@@ -288,12 +288,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 711
+    x: 809
     y: 0
-    width: 307
+    width: 351
     height: 274
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -314,12 +314,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1018
+    x: 1160
     y: 0
-    width: 419
+    width: 277
     height: 749
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -348,9 +348,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 578
+    x: 658
     y: 75
-    width: 438
+    width: 500
     height: 456
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
@@ -364,8 +364,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -219
-    m_HBaseRangeMax: 219
+    m_HBaseRangeMin: -250
+    m_HBaseRangeMax: 250
     m_VBaseRangeMin: -219.5
     m_VBaseRangeMax: 219.5
     m_HAllowExceedBaseRangeMin: 1
@@ -385,25 +385,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 438
+      width: 500
       height: 439
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 219, y: 219.5}
+    m_Translation: {x: 250, y: 219.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -219
+      x: -250
       y: -219.5
-      width: 438
+      width: 500
       height: 439
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 876, y: 912}
+  m_LastWindowPixelSize: {x: 500, y: 456}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -431,7 +431,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 75
-    width: 578
+    width: 658
     height: 456
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -620,7 +620,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 550
-    width: 711
+    width: 809
     height: 255
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -642,14 +642,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020
+  m_LastProjectPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ec2f0000
-    m_LastClickedID: 12268
-    m_ExpandedIDs: 000000009e2c000000ca9a3b
+    m_SelectedIDs: dc380000
+    m_LastClickedID: 14556
+    m_ExpandedIDs: 000000005a370000dc380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -677,7 +677,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 922f0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e2c0000
+    m_ExpandedIDs: 000000005a370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -708,20 +708,20 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300006834000066390000fe39000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scripts
+      m_OriginalName: Scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 14556
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -823,8 +823,8 @@ MonoBehaviour:
       Description: Collaborate is a simple way for teams to save, share, and sync
         their Unity project
       Category: 
-      State: 1
-      IsLatest: 0
+      State: 0
+      IsLatest: 1
       Group: Packages
       Type: 
       Origin: 1
@@ -839,7 +839,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -851,24 +851,9 @@ MonoBehaviour:
         m_Errors: []
         m_Versions:
           m_All:
-          - 1.2.3-preview
-          - 1.2.4-preview
-          - 1.2.6
-          - 1.2.7
-          - 1.2.9
-          - 1.2.11
-          - 1.2.15
           - 1.2.16
-          - 2.0.0-preview.6
-          - 2.0.0-preview.8
-          - 2.0.0-preview.15
-          - 2.0.0-preview.17
           m_Compatible:
           - 1.2.16
-          - 2.0.0-preview.6
-          - 2.0.0-preview.8
-          - 2.0.0-preview.15
-          - 2.0.0-preview.17
           m_Recommended: 1.2.16
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -889,490 +874,8 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636898892010000000
+        m_DatePublishedTicks: 0
       IsInstalled: 1
-    - Name: com.unity.collab-proxy
-      DisplayName: Unity Collaborate
-      _Version: 2.0.0-preview.6
-      Description: Collaborate is a simple way for teams to save, share, and sync
-        their Unity project
-      Category: 
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.collab-proxy@1.2.16
-        m_IsDirectDependency: 1
-        m_Version: 1.2.16
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.collab-proxy@1.2.16
-        m_AssetPath: Packages/com.unity.collab-proxy
-        m_Name: com.unity.collab-proxy
-        m_DisplayName: Unity Collaborate
-        m_Category: 
-        m_Type: 
-        m_Description: Collaborate is a simple way for teams to save, share, and sync
-          their Unity project
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.2.3-preview
-          - 1.2.4-preview
-          - 1.2.6
-          - 1.2.7
-          - 1.2.9
-          - 1.2.11
-          - 1.2.15
-          - 1.2.16
-          - 2.0.0-preview.6
-          - 2.0.0-preview.8
-          - 2.0.0-preview.15
-          - 2.0.0-preview.17
-          m_Compatible:
-          - 1.2.16
-          - 2.0.0-preview.6
-          - 2.0.0-preview.8
-          - 2.0.0-preview.15
-          - 2.0.0-preview.17
-          m_Recommended: 1.2.16
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords:
-        - collab
-        - collaborate
-        - teams
-        - team
-        - cloud
-        - backup
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636898892010000000
-      IsInstalled: 0
-    - Name: com.unity.collab-proxy
-      DisplayName: Unity Collaborate
-      _Version: 2.0.0-preview.8
-      Description: Collaborate is a simple way for teams to save, share, and sync
-        their Unity project
-      Category: 
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.collab-proxy@1.2.16
-        m_IsDirectDependency: 1
-        m_Version: 1.2.16
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.collab-proxy@1.2.16
-        m_AssetPath: Packages/com.unity.collab-proxy
-        m_Name: com.unity.collab-proxy
-        m_DisplayName: Unity Collaborate
-        m_Category: 
-        m_Type: 
-        m_Description: Collaborate is a simple way for teams to save, share, and sync
-          their Unity project
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.2.3-preview
-          - 1.2.4-preview
-          - 1.2.6
-          - 1.2.7
-          - 1.2.9
-          - 1.2.11
-          - 1.2.15
-          - 1.2.16
-          - 2.0.0-preview.6
-          - 2.0.0-preview.8
-          - 2.0.0-preview.15
-          - 2.0.0-preview.17
-          m_Compatible:
-          - 1.2.16
-          - 2.0.0-preview.6
-          - 2.0.0-preview.8
-          - 2.0.0-preview.15
-          - 2.0.0-preview.17
-          m_Recommended: 1.2.16
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords:
-        - collab
-        - collaborate
-        - teams
-        - team
-        - cloud
-        - backup
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636898892010000000
-      IsInstalled: 0
-    - Name: com.unity.collab-proxy
-      DisplayName: Unity Collaborate
-      _Version: 2.0.0-preview.15
-      Description: Collaborate is a simple way for teams to save, share, and sync
-        their Unity project
-      Category: 
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.collab-proxy@1.2.16
-        m_IsDirectDependency: 1
-        m_Version: 1.2.16
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.collab-proxy@1.2.16
-        m_AssetPath: Packages/com.unity.collab-proxy
-        m_Name: com.unity.collab-proxy
-        m_DisplayName: Unity Collaborate
-        m_Category: 
-        m_Type: 
-        m_Description: Collaborate is a simple way for teams to save, share, and sync
-          their Unity project
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.2.3-preview
-          - 1.2.4-preview
-          - 1.2.6
-          - 1.2.7
-          - 1.2.9
-          - 1.2.11
-          - 1.2.15
-          - 1.2.16
-          - 2.0.0-preview.6
-          - 2.0.0-preview.8
-          - 2.0.0-preview.15
-          - 2.0.0-preview.17
-          m_Compatible:
-          - 1.2.16
-          - 2.0.0-preview.6
-          - 2.0.0-preview.8
-          - 2.0.0-preview.15
-          - 2.0.0-preview.17
-          m_Recommended: 1.2.16
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords:
-        - collab
-        - collaborate
-        - teams
-        - team
-        - cloud
-        - backup
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636898892010000000
-      IsInstalled: 0
-    - Name: com.unity.collab-proxy
-      DisplayName: Unity Collaborate
-      _Version: 2.0.0-preview.17
-      Description: Collaborate is a simple way for teams to save, share, and sync
-        their Unity project
-      Category: 
-      State: 1
-      IsLatest: 1
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.collab-proxy@1.2.16
-        m_IsDirectDependency: 1
-        m_Version: 1.2.16
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.collab-proxy@1.2.16
-        m_AssetPath: Packages/com.unity.collab-proxy
-        m_Name: com.unity.collab-proxy
-        m_DisplayName: Unity Collaborate
-        m_Category: 
-        m_Type: 
-        m_Description: Collaborate is a simple way for teams to save, share, and sync
-          their Unity project
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.2.3-preview
-          - 1.2.4-preview
-          - 1.2.6
-          - 1.2.7
-          - 1.2.9
-          - 1.2.11
-          - 1.2.15
-          - 1.2.16
-          - 2.0.0-preview.6
-          - 2.0.0-preview.8
-          - 2.0.0-preview.15
-          - 2.0.0-preview.17
-          m_Compatible:
-          - 1.2.16
-          - 2.0.0-preview.6
-          - 2.0.0-preview.8
-          - 2.0.0-preview.15
-          - 2.0.0-preview.17
-          m_Recommended: 1.2.16
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords:
-        - collab
-        - collaborate
-        - teams
-        - team
-        - cloud
-        - backup
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636898892010000000
-      IsInstalled: 0
-    - Name: com.unity.ext.nunit
-      DisplayName: Custom NUnit
-      _Version: 0.1.5-preview
-      Description: Custom version of the nunit package build to work with Unity. Used
-        by the Unity Test Framework.
-      Category: Libraries
-      State: 0
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ext.nunit@1.0.0
-        m_IsDirectDependency: 1
-        m_Version: 1.0.0
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ext.nunit@1.0.0
-        m_AssetPath: Packages/com.unity.ext.nunit
-        m_Name: com.unity.ext.nunit
-        m_DisplayName: Custom NUnit
-        m_Category: Libraries
-        m_Type: 
-        m_Description: Custom version of the nunit package build to work with Unity.
-          Used by the Unity Test Framework.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.1.5-preview
-          - 0.1.6-preview
-          - 0.1.9-preview
-          - 1.0.0
-          m_Compatible:
-          - 0.1.5-preview
-          - 0.1.6-preview
-          - 0.1.9-preview
-          - 1.0.0
-          m_Recommended: 1.0.0
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords:
-        - nunit
-        - unittest
-        - test
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636898893830000000
-      IsInstalled: 0
-    - Name: com.unity.ext.nunit
-      DisplayName: Custom NUnit
-      _Version: 0.1.6-preview
-      Description: Custom version of the nunit package build to work with Unity. Used
-        by the Unity Test Framework.
-      Category: Libraries
-      State: 0
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ext.nunit@1.0.0
-        m_IsDirectDependency: 1
-        m_Version: 1.0.0
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ext.nunit@1.0.0
-        m_AssetPath: Packages/com.unity.ext.nunit
-        m_Name: com.unity.ext.nunit
-        m_DisplayName: Custom NUnit
-        m_Category: Libraries
-        m_Type: 
-        m_Description: Custom version of the nunit package build to work with Unity.
-          Used by the Unity Test Framework.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.1.5-preview
-          - 0.1.6-preview
-          - 0.1.9-preview
-          - 1.0.0
-          m_Compatible:
-          - 0.1.5-preview
-          - 0.1.6-preview
-          - 0.1.9-preview
-          - 1.0.0
-          m_Recommended: 1.0.0
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords:
-        - nunit
-        - unittest
-        - test
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636898893830000000
-      IsInstalled: 0
-    - Name: com.unity.ext.nunit
-      DisplayName: Custom NUnit
-      _Version: 0.1.9-preview
-      Description: Custom version of the nunit package build to work with Unity. Used
-        by the Unity Test Framework.
-      Category: Libraries
-      State: 0
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ext.nunit@1.0.0
-        m_IsDirectDependency: 1
-        m_Version: 1.0.0
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ext.nunit@1.0.0
-        m_AssetPath: Packages/com.unity.ext.nunit
-        m_Name: com.unity.ext.nunit
-        m_DisplayName: Custom NUnit
-        m_Category: Libraries
-        m_Type: 
-        m_Description: Custom version of the nunit package build to work with Unity.
-          Used by the Unity Test Framework.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.1.5-preview
-          - 0.1.6-preview
-          - 0.1.9-preview
-          - 1.0.0
-          m_Compatible:
-          - 0.1.5-preview
-          - 0.1.6-preview
-          - 0.1.9-preview
-          - 1.0.0
-          m_Recommended: 1.0.0
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords:
-        - nunit
-        - unittest
-        - test
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636898893830000000
-      IsInstalled: 0
     - Name: com.unity.ext.nunit
       DisplayName: Custom NUnit
       _Version: 1.0.0
@@ -1395,7 +898,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1407,14 +910,8 @@ MonoBehaviour:
         m_Errors: []
         m_Versions:
           m_All:
-          - 0.1.5-preview
-          - 0.1.6-preview
-          - 0.1.9-preview
           - 1.0.0
           m_Compatible:
-          - 0.1.5-preview
-          - 0.1.6-preview
-          - 0.1.9-preview
           - 1.0.0
           m_Recommended: 1.0.0
         m_Dependencies: []
@@ -1433,224 +930,8 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636898893830000000
+        m_DatePublishedTicks: 0
       IsInstalled: 1
-    - Name: com.unity.ide.rider
-      DisplayName: Rider Editor
-      _Version: 1.0.2
-      Description: Code editor integration for supporting Rider as code editor for
-        unity. Adds support for generating csproj files for code completion, auto
-        discovery of installations, etc.
-      Category: 
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.rider@1.1.0
-        m_IsDirectDependency: 1
-        m_Version: 1.1.0
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.rider@1.1.0
-        m_AssetPath: Packages/com.unity.ide.rider
-        m_Name: com.unity.ide.rider
-        m_DisplayName: Rider Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Rider as code editor
-          for unity. Adds support for generating csproj files for code completion,
-          auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Compatible:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Recommended: 1.1.1
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
-      IsInstalled: 0
-    - Name: com.unity.ide.rider
-      DisplayName: Rider Editor
-      _Version: 1.0.6
-      Description: Code editor integration for supporting Rider as code editor for
-        unity. Adds support for generating csproj files for code completion, auto
-        discovery of installations, etc.
-      Category: 
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.rider@1.1.0
-        m_IsDirectDependency: 1
-        m_Version: 1.1.0
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.rider@1.1.0
-        m_AssetPath: Packages/com.unity.ide.rider
-        m_Name: com.unity.ide.rider
-        m_DisplayName: Rider Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Rider as code editor
-          for unity. Adds support for generating csproj files for code completion,
-          auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Compatible:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Recommended: 1.1.1
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
-      IsInstalled: 0
-    - Name: com.unity.ide.rider
-      DisplayName: Rider Editor
-      _Version: 1.0.8
-      Description: Code editor integration for supporting Rider as code editor for
-        unity. Adds support for generating csproj files for code completion, auto
-        discovery of installations, etc.
-      Category: 
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.rider@1.1.0
-        m_IsDirectDependency: 1
-        m_Version: 1.1.0
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.rider@1.1.0
-        m_AssetPath: Packages/com.unity.ide.rider
-        m_Name: com.unity.ide.rider
-        m_DisplayName: Rider Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Rider as code editor
-          for unity. Adds support for generating csproj files for code completion,
-          auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Compatible:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Recommended: 1.1.1
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
-      IsInstalled: 0
     - Name: com.unity.ide.rider
       DisplayName: Rider Editor
       _Version: 1.1.0
@@ -1658,13 +939,13 @@ MonoBehaviour:
         unity. Adds support for generating csproj files for code completion, auto
         discovery of installations, etc.
       Category: 
-      State: 1
-      IsLatest: 0
+      State: 0
+      IsLatest: 1
       Group: Packages
       Type: 
       Origin: 1
       Errors: []
-      IsVerified: 0
+      IsVerified: 1
       Author: Unity Technologies Inc.
       IsDiscoverable: 1
       Samples: []
@@ -1674,7 +955,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.rider@1.1.0
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1687,23 +968,10 @@ MonoBehaviour:
         m_Errors: []
         m_Versions:
           m_All:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
           - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
           m_Compatible:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
           - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Recommended: 1.1.1
+          m_Recommended: 1.1.0
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
           m_Version: 1.0.0
@@ -1721,549 +989,8 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
+        m_DatePublishedTicks: 0
       IsInstalled: 1
-    - Name: com.unity.ide.rider
-      DisplayName: Rider Editor
-      _Version: 1.1.1
-      Description: Code editor integration for supporting Rider as code editor for
-        unity. Adds support for generating csproj files for code completion, auto
-        discovery of installations, etc.
-      Category: 
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 1
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.rider@1.1.0
-        m_IsDirectDependency: 1
-        m_Version: 1.1.0
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.rider@1.1.0
-        m_AssetPath: Packages/com.unity.ide.rider
-        m_Name: com.unity.ide.rider
-        m_DisplayName: Rider Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Rider as code editor
-          for unity. Adds support for generating csproj files for code completion,
-          auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Compatible:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Recommended: 1.1.1
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
-      IsInstalled: 0
-    - Name: com.unity.ide.rider
-      DisplayName: Rider Editor
-      _Version: 1.1.2-preview.2
-      Description: Code editor integration for supporting Rider as code editor for
-        unity. Adds support for generating csproj files for code completion, auto
-        discovery of installations, etc.
-      Category: 
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.rider@1.1.0
-        m_IsDirectDependency: 1
-        m_Version: 1.1.0
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.rider@1.1.0
-        m_AssetPath: Packages/com.unity.ide.rider
-        m_Name: com.unity.ide.rider
-        m_DisplayName: Rider Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Rider as code editor
-          for unity. Adds support for generating csproj files for code completion,
-          auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Compatible:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Recommended: 1.1.1
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
-      IsInstalled: 0
-    - Name: com.unity.ide.rider
-      DisplayName: Rider Editor
-      _Version: 1.1.3-preview.1
-      Description: Code editor integration for supporting Rider as code editor for
-        unity. Adds support for generating csproj files for code completion, auto
-        discovery of installations, etc.
-      Category: 
-      State: 1
-      IsLatest: 1
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.rider@1.1.0
-        m_IsDirectDependency: 1
-        m_Version: 1.1.0
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.rider@1.1.0
-        m_AssetPath: Packages/com.unity.ide.rider
-        m_Name: com.unity.ide.rider
-        m_DisplayName: Rider Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Rider as code editor
-          for unity. Adds support for generating csproj files for code completion,
-          auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Compatible:
-          - 1.0.2
-          - 1.0.6
-          - 1.0.8
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2-preview.2
-          - 1.1.3-preview.1
-          m_Recommended: 1.1.1
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
-      IsInstalled: 0
-    - Name: com.unity.ide.vscode
-      DisplayName: Visual Studio Code Editor
-      _Version: 1.0.2
-      Description: Code editor integration for supporting Visual Studio Code as code
-        editor for unity. Adds support for generating csproj files for intellisense
-        purposes, auto discovery of installations, etc.
-      Category: 
-      State: 0
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.vscode@1.1.3
-        m_IsDirectDependency: 1
-        m_Version: 1.1.3
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.vscode@1.1.3
-        m_AssetPath: Packages/com.unity.ide.vscode
-        m_Name: com.unity.ide.vscode
-        m_DisplayName: Visual Studio Code Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Visual Studio Code as
-          code editor for unity. Adds support for generating csproj files for intellisense
-          purposes, auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
-          - 1.1.3
-          m_Compatible:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
-          - 1.1.3
-          m_Recommended: 1.1.3
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637080445620000000
-      IsInstalled: 0
-    - Name: com.unity.ide.vscode
-      DisplayName: Visual Studio Code Editor
-      _Version: 1.0.3
-      Description: Code editor integration for supporting Visual Studio Code as code
-        editor for unity. Adds support for generating csproj files for intellisense
-        purposes, auto discovery of installations, etc.
-      Category: 
-      State: 0
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.vscode@1.1.3
-        m_IsDirectDependency: 1
-        m_Version: 1.1.3
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.vscode@1.1.3
-        m_AssetPath: Packages/com.unity.ide.vscode
-        m_Name: com.unity.ide.vscode
-        m_DisplayName: Visual Studio Code Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Visual Studio Code as
-          code editor for unity. Adds support for generating csproj files for intellisense
-          purposes, auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
-          - 1.1.3
-          m_Compatible:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
-          - 1.1.3
-          m_Recommended: 1.1.3
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637080445620000000
-      IsInstalled: 0
-    - Name: com.unity.ide.vscode
-      DisplayName: Visual Studio Code Editor
-      _Version: 1.0.7
-      Description: Code editor integration for supporting Visual Studio Code as code
-        editor for unity. Adds support for generating csproj files for intellisense
-        purposes, auto discovery of installations, etc.
-      Category: 
-      State: 0
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.vscode@1.1.3
-        m_IsDirectDependency: 1
-        m_Version: 1.1.3
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.vscode@1.1.3
-        m_AssetPath: Packages/com.unity.ide.vscode
-        m_Name: com.unity.ide.vscode
-        m_DisplayName: Visual Studio Code Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Visual Studio Code as
-          code editor for unity. Adds support for generating csproj files for intellisense
-          purposes, auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
-          - 1.1.3
-          m_Compatible:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
-          - 1.1.3
-          m_Recommended: 1.1.3
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637080445620000000
-      IsInstalled: 0
-    - Name: com.unity.ide.vscode
-      DisplayName: Visual Studio Code Editor
-      _Version: 1.1.0
-      Description: Code editor integration for supporting Visual Studio Code as code
-        editor for unity. Adds support for generating csproj files for intellisense
-        purposes, auto discovery of installations, etc.
-      Category: 
-      State: 0
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.vscode@1.1.3
-        m_IsDirectDependency: 1
-        m_Version: 1.1.3
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.vscode@1.1.3
-        m_AssetPath: Packages/com.unity.ide.vscode
-        m_Name: com.unity.ide.vscode
-        m_DisplayName: Visual Studio Code Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Visual Studio Code as
-          code editor for unity. Adds support for generating csproj files for intellisense
-          purposes, auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
-          - 1.1.3
-          m_Compatible:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
-          - 1.1.3
-          m_Recommended: 1.1.3
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637080445620000000
-      IsInstalled: 0
-    - Name: com.unity.ide.vscode
-      DisplayName: Visual Studio Code Editor
-      _Version: 1.1.2
-      Description: Code editor integration for supporting Visual Studio Code as code
-        editor for unity. Adds support for generating csproj files for intellisense
-        purposes, auto discovery of installations, etc.
-      Category: 
-      State: 0
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.ide.vscode@1.1.3
-        m_IsDirectDependency: 1
-        m_Version: 1.1.3
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.vscode@1.1.3
-        m_AssetPath: Packages/com.unity.ide.vscode
-        m_Name: com.unity.ide.vscode
-        m_DisplayName: Visual Studio Code Editor
-        m_Category: 
-        m_Type: 
-        m_Description: Code editor integration for supporting Visual Studio Code as
-          code editor for unity. Adds support for generating csproj files for intellisense
-          purposes, auto discovery of installations, etc.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
-          - 1.1.3
-          m_Compatible:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
-          - 1.1.3
-          m_Recommended: 1.1.3
-        m_Dependencies: []
-        m_ResolvedDependencies: []
-        m_Keywords: []
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 637080445620000000
-      IsInstalled: 0
     - Name: com.unity.ide.vscode
       DisplayName: Visual Studio Code Editor
       _Version: 1.1.3
@@ -2287,7 +1014,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2300,18 +1027,8 @@ MonoBehaviour:
         m_Errors: []
         m_Versions:
           m_All:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
           - 1.1.3
           m_Compatible:
-          - 1.0.2
-          - 1.0.3
-          - 1.0.7
-          - 1.1.0
-          - 1.1.2
           - 1.1.3
           m_Recommended: 1.1.3
         m_Dependencies: []
@@ -2327,7 +1044,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637080445620000000
+        m_DatePublishedTicks: 0
       IsInstalled: 1
     - Name: com.unity.package-manager-ui
       DisplayName: Package Manager UI
@@ -2390,646 +1107,16 @@ MonoBehaviour:
       IsInstalled: 1
     - Name: com.unity.test-framework
       DisplayName: Test Framework
-      _Version: 0.0.4-preview
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 0.0.29-preview
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.0.0
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.0.7
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.0.9
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.0.11
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.0.12
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
       _Version: 1.0.13
       Description: Test framework for running Edit mode and Play mode test in Unity.
       Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
+      State: 0
+      IsLatest: 1
       Group: Packages
       Type: 
       Origin: 1
       Errors: []
-      IsVerified: 0
+      IsVerified: 1
       Author: Unity Technologies Inc.
       IsDiscoverable: 1
       Samples: []
@@ -3039,7 +1126,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3051,42 +1138,10 @@ MonoBehaviour:
         m_Errors: []
         m_Versions:
           m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
           - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
           m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
           - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
+          m_Recommended: 1.0.13
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
           m_Version: 1.0.0
@@ -3106,818 +1161,8 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
+        m_DatePublishedTicks: 0
       IsInstalled: 1
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.0.14
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.0.16
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.0.17
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.0.18
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 1
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.1.0
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.1.1
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.1.2
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.1.3
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
-    - Name: com.unity.test-framework
-      DisplayName: Test Framework
-      _Version: 1.1.5
-      Description: Test framework for running Edit mode and Play mode test in Unity.
-      Category: Unity Test Framework
-      State: 1
-      IsLatest: 1
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.test-framework@1.0.13
-        m_IsDirectDependency: 1
-        m_Version: 1.0.13
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.test-framework@1.0.13
-        m_AssetPath: Packages/com.unity.test-framework
-        m_Name: com.unity.test-framework
-        m_DisplayName: Test Framework
-        m_Category: Unity Test Framework
-        m_Type: 
-        m_Description: Test framework for running Edit mode and Play mode test in
-          Unity.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Compatible:
-          - 0.0.4-preview
-          - 0.0.29-preview
-          - 1.0.0
-          - 1.0.7
-          - 1.0.9
-          - 1.0.11
-          - 1.0.12
-          - 1.0.13
-          - 1.0.14
-          - 1.0.16
-          - 1.0.17
-          - 1.0.18
-          - 1.1.0
-          - 1.1.1
-          - 1.1.2
-          - 1.1.3
-          - 1.1.5
-          m_Recommended: 1.0.18
-        m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
-        m_Keywords:
-        - Test
-        - TestFramework
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636929353520000000
-      IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
       _Version: 0.1.2
@@ -3949,7 +1194,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3965,7 +1210,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -4021,13 +1266,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -4048,13 +1289,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -4077,7 +1314,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -4110,7 +1347,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -4126,7 +1363,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -4182,13 +1419,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -4209,13 +1442,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -4238,7 +1467,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -4271,7 +1500,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -4287,7 +1516,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -4343,13 +1572,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -4370,13 +1595,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -4399,7 +1620,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -4432,7 +1653,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -4448,7 +1669,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -4504,13 +1725,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -4531,13 +1748,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -4560,7 +1773,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -4593,7 +1806,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -4609,7 +1822,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -4665,13 +1878,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -4692,13 +1901,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -4721,7 +1926,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -4754,7 +1959,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -4770,7 +1975,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -4826,13 +2031,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -4853,13 +2054,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -4882,7 +2079,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -4915,7 +2112,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -4931,7 +2128,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -4987,13 +2184,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -5014,13 +2207,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -5043,7 +2232,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -5076,7 +2265,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -5092,7 +2281,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5148,13 +2337,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -5175,13 +2360,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -5204,7 +2385,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -5237,7 +2418,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -5253,7 +2434,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5309,13 +2490,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -5336,13 +2513,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -5365,7 +2538,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -5398,7 +2571,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -5414,7 +2587,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5470,13 +2643,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -5497,13 +2666,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -5526,7 +2691,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -5559,7 +2724,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -5575,7 +2740,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5631,13 +2796,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -5658,13 +2819,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -5687,7 +2844,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -5720,7 +2877,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -5736,7 +2893,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5792,13 +2949,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -5819,13 +2972,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -5848,7 +2997,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -5881,7 +3030,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -5897,7 +3046,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5953,13 +3102,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -5980,13 +3125,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -6009,7 +3150,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -6042,7 +3183,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -6058,7 +3199,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6114,13 +3255,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -6141,13 +3278,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -6170,7 +3303,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -6203,7 +3336,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -6219,7 +3352,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6275,13 +3408,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -6302,13 +3431,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -6331,7 +3456,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -6364,7 +3489,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -6380,7 +3505,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6436,13 +3561,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -6463,13 +3584,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -6492,7 +3609,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -6525,7 +3642,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -6541,7 +3658,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6597,13 +3714,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -6624,13 +3737,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -6653,7 +3762,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -6686,7 +3795,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -6702,7 +3811,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6758,13 +3867,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -6785,13 +3890,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -6814,7 +3915,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -6847,7 +3948,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -6863,7 +3964,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6919,13 +4020,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -6946,13 +4043,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -6975,329 +4068,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
-      IsInstalled: 0
-    - Name: com.unity.textmeshpro
-      DisplayName: TextMesh Pro
-      _Version: 1.5.0-preview.1
-      Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the
-        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-        Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
-        along with a set of custom shaders; delivering substantial visual quality
-        improvements while giving users incredible flexibility when it comes to text
-        styling and texturing.
-
-
-        TextMesh Pro provides Improved Control over text formatting and layout with
-        features like character, word, line and paragraph spacing, kerning, justified
-        text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites,
-        Custom Styles and more.
-
-
-        Great performance. Since the geometry created by TextMesh Pro uses two triangles
-        per character just like Unity''s text components, this improved visual quality
-        and flexibility comes at no additional performance cost.
-
-
-
-        Special Notes:
-
-        ==========
-
-        This release requires .Net 4.x Scripting Runtime'
-      Category: Text Rendering
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.textmeshpro@2.0.1
-        m_IsDirectDependency: 1
-        m_Version: 2.0.1
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
-        m_AssetPath: Packages/com.unity.textmeshpro
-        m_Name: com.unity.textmeshpro
-        m_DisplayName: TextMesh Pro
-        m_Category: Text Rendering
-        m_Type: 
-        m_Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s
-          the perfect replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-          Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
-          along with a set of custom shaders; delivering substantial visual quality
-          improvements while giving users incredible flexibility when it comes to
-          text styling and texturing.
-
-
-          TextMesh Pro provides Improved Control over text formatting and layout with
-          features like character, word, line and paragraph spacing, kerning, justified
-          text, Links, over 30 Rich Text Tags available, support for Multi Font &
-          Sprites, Custom Styles and more.
-
-
-          Great performance. Since the geometry created by TextMesh Pro uses two triangles
-          per character just like Unity''s text components, this improved visual quality
-          and flexibility comes at no additional performance cost.
-
-
-
-          Special Notes:
-
-          ==========
-
-          This release requires .Net 4.x Scripting Runtime'
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.1.2
-          - 1.0.21
-          - 1.0.23
-          - 1.0.25
-          - 1.0.26
-          - 1.1.0
-          - 1.2.0
-          - 1.2.1
-          - 1.2.2
-          - 1.2.3
-          - 1.2.4
-          - 1.3.0-preview
-          - 1.3.0
-          - 1.4.0-preview.1b
-          - 1.4.0-preview.2a
-          - 1.4.0-preview.3a
-          - 1.4.0
-          - 1.4.1-preview.1
-          - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
-          - 2.0.0
-          - 2.0.1-preview.1
-          - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
-          m_Compatible:
-          - 0.1.2
-          - 1.0.21
-          - 1.0.23
-          - 1.0.25
-          - 1.0.26
-          - 1.1.0
-          - 1.2.0
-          - 1.2.1
-          - 1.2.2
-          - 1.2.3
-          - 1.2.4
-          - 1.3.0-preview
-          - 1.3.0
-          - 1.4.0-preview.1b
-          - 1.4.0-preview.2a
-          - 1.4.0-preview.3a
-          - 1.4.0
-          - 1.4.1-preview.1
-          - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
-          - 2.0.0
-          - 2.0.1-preview.1
-          - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
-          m_Recommended: 2.0.1
-        m_Dependencies:
-        - m_Name: com.unity.ugui
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ugui
-          m_Version: 1.0.0
-        m_Keywords:
-        - TextMeshPro
-        - TextMesh Pro
-        - Text
-        - SDF
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
-      IsInstalled: 0
-    - Name: com.unity.textmeshpro
-      DisplayName: TextMesh Pro
-      _Version: 1.5.0-preview.2
-      Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the
-        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-        Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
-        along with a set of custom shaders; delivering substantial visual quality
-        improvements while giving users incredible flexibility when it comes to text
-        styling and texturing.
-
-
-        TextMesh Pro provides Improved Control over text formatting and layout with
-        features like character, word, line and paragraph spacing, kerning, justified
-        text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites,
-        Custom Styles and more.
-
-
-        Great performance. Since the geometry created by TextMesh Pro uses two triangles
-        per character just like Unity''s text components, this improved visual quality
-        and flexibility comes at no additional performance cost.
-
-
-
-        Special Notes:
-
-        ==========
-
-        This release requires .Net 4.x Scripting Runtime'
-      Category: Text Rendering
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.textmeshpro@2.0.1
-        m_IsDirectDependency: 1
-        m_Version: 2.0.1
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
-        m_AssetPath: Packages/com.unity.textmeshpro
-        m_Name: com.unity.textmeshpro
-        m_DisplayName: TextMesh Pro
-        m_Category: Text Rendering
-        m_Type: 
-        m_Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s
-          the perfect replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-          Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
-          along with a set of custom shaders; delivering substantial visual quality
-          improvements while giving users incredible flexibility when it comes to
-          text styling and texturing.
-
-
-          TextMesh Pro provides Improved Control over text formatting and layout with
-          features like character, word, line and paragraph spacing, kerning, justified
-          text, Links, over 30 Rich Text Tags available, support for Multi Font &
-          Sprites, Custom Styles and more.
-
-
-          Great performance. Since the geometry created by TextMesh Pro uses two triangles
-          per character just like Unity''s text components, this improved visual quality
-          and flexibility comes at no additional performance cost.
-
-
-
-          Special Notes:
-
-          ==========
-
-          This release requires .Net 4.x Scripting Runtime'
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.1.2
-          - 1.0.21
-          - 1.0.23
-          - 1.0.25
-          - 1.0.26
-          - 1.1.0
-          - 1.2.0
-          - 1.2.1
-          - 1.2.2
-          - 1.2.3
-          - 1.2.4
-          - 1.3.0-preview
-          - 1.3.0
-          - 1.4.0-preview.1b
-          - 1.4.0-preview.2a
-          - 1.4.0-preview.3a
-          - 1.4.0
-          - 1.4.1-preview.1
-          - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
-          - 2.0.0
-          - 2.0.1-preview.1
-          - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
-          m_Compatible:
-          - 0.1.2
-          - 1.0.21
-          - 1.0.23
-          - 1.0.25
-          - 1.0.26
-          - 1.1.0
-          - 1.2.0
-          - 1.2.1
-          - 1.2.2
-          - 1.2.3
-          - 1.2.4
-          - 1.3.0-preview
-          - 1.3.0
-          - 1.4.0-preview.1b
-          - 1.4.0-preview.2a
-          - 1.4.0-preview.3a
-          - 1.4.0
-          - 1.4.1-preview.1
-          - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
-          - 2.0.0
-          - 2.0.1-preview.1
-          - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
-          m_Recommended: 2.0.1
-        m_Dependencies:
-        - m_Name: com.unity.ugui
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ugui
-          m_Version: 1.0.0
-        m_Keywords:
-        - TextMeshPro
-        - TextMesh Pro
-        - Text
-        - SDF
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -7330,7 +4101,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -7346,7 +4117,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7402,13 +4173,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -7429,13 +4196,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -7458,7 +4221,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -7491,7 +4254,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
+      State: 0
       IsLatest: 0
       Group: Packages
       Type: 
@@ -7507,7 +4270,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7563,13 +4326,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -7590,13 +4349,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -7619,7 +4374,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -7652,8 +4407,8 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 1
-      IsLatest: 0
+      State: 0
+      IsLatest: 1
       Group: Packages
       Type: 
       Origin: 1
@@ -7668,7 +4423,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: /Users/jiawen/Documents/Game dev/gamejam/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7724,13 +4479,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -7751,13 +4502,9 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -7780,330 +4527,8 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
+        m_DatePublishedTicks: 636933704317280000
       IsInstalled: 1
-    - Name: com.unity.textmeshpro
-      DisplayName: TextMesh Pro
-      _Version: 2.1.0-preview.1
-      Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the
-        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-        Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
-        along with a set of custom shaders; delivering substantial visual quality
-        improvements while giving users incredible flexibility when it comes to text
-        styling and texturing.
-
-
-        TextMesh Pro provides Improved Control over text formatting and layout with
-        features like character, word, line and paragraph spacing, kerning, justified
-        text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites,
-        Custom Styles and more.
-
-
-        Great performance. Since the geometry created by TextMesh Pro uses two triangles
-        per character just like Unity''s text components, this improved visual quality
-        and flexibility comes at no additional performance cost.
-
-
-
-        Special Notes:
-
-        ==========
-
-        This release requires .Net 4.x Scripting Runtime'
-      Category: Text Rendering
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.textmeshpro@2.0.1
-        m_IsDirectDependency: 1
-        m_Version: 2.0.1
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
-        m_AssetPath: Packages/com.unity.textmeshpro
-        m_Name: com.unity.textmeshpro
-        m_DisplayName: TextMesh Pro
-        m_Category: Text Rendering
-        m_Type: 
-        m_Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s
-          the perfect replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-          Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
-          along with a set of custom shaders; delivering substantial visual quality
-          improvements while giving users incredible flexibility when it comes to
-          text styling and texturing.
-
-
-          TextMesh Pro provides Improved Control over text formatting and layout with
-          features like character, word, line and paragraph spacing, kerning, justified
-          text, Links, over 30 Rich Text Tags available, support for Multi Font &
-          Sprites, Custom Styles and more.
-
-
-          Great performance. Since the geometry created by TextMesh Pro uses two triangles
-          per character just like Unity''s text components, this improved visual quality
-          and flexibility comes at no additional performance cost.
-
-
-
-          Special Notes:
-
-          ==========
-
-          This release requires .Net 4.x Scripting Runtime'
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.1.2
-          - 1.0.21
-          - 1.0.23
-          - 1.0.25
-          - 1.0.26
-          - 1.1.0
-          - 1.2.0
-          - 1.2.1
-          - 1.2.2
-          - 1.2.3
-          - 1.2.4
-          - 1.3.0-preview
-          - 1.3.0
-          - 1.4.0-preview.1b
-          - 1.4.0-preview.2a
-          - 1.4.0-preview.3a
-          - 1.4.0
-          - 1.4.1-preview.1
-          - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
-          - 2.0.0
-          - 2.0.1-preview.1
-          - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
-          m_Compatible:
-          - 0.1.2
-          - 1.0.21
-          - 1.0.23
-          - 1.0.25
-          - 1.0.26
-          - 1.1.0
-          - 1.2.0
-          - 1.2.1
-          - 1.2.2
-          - 1.2.3
-          - 1.2.4
-          - 1.3.0-preview
-          - 1.3.0
-          - 1.4.0-preview.1b
-          - 1.4.0-preview.2a
-          - 1.4.0-preview.3a
-          - 1.4.0
-          - 1.4.1-preview.1
-          - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
-          - 2.0.0
-          - 2.0.1-preview.1
-          - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
-          m_Recommended: 2.0.1
-        m_Dependencies:
-        - m_Name: com.unity.ugui
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ugui
-          m_Version: 1.0.0
-        m_Keywords:
-        - TextMeshPro
-        - TextMesh Pro
-        - Text
-        - SDF
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
-      IsInstalled: 0
-    - Name: com.unity.textmeshpro
-      DisplayName: TextMesh Pro
-      _Version: 2.1.0-preview.2
-      Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the
-        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-        Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
-        along with a set of custom shaders; delivering substantial visual quality
-        improvements while giving users incredible flexibility when it comes to text
-        styling and texturing.
-
-
-        TextMesh Pro provides Improved Control over text formatting and layout with
-        features like character, word, line and paragraph spacing, kerning, justified
-        text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites,
-        Custom Styles and more.
-
-
-        Great performance. Since the geometry created by TextMesh Pro uses two triangles
-        per character just like Unity''s text components, this improved visual quality
-        and flexibility comes at no additional performance cost.
-
-
-
-        Special Notes:
-
-        ==========
-
-        This release requires .Net 4.x Scripting Runtime'
-      Category: Text Rendering
-      State: 1
-      IsLatest: 1
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 0
-      Info:
-        m_PackageId: com.unity.textmeshpro@2.0.1
-        m_IsDirectDependency: 1
-        m_Version: 2.0.1
-        m_Source: 1
-        m_ResolvedPath: /Users/robinleman/Documents/GitHub/McGameJam-2020/McGameJam-2020/Library/PackageCache/com.unity.textmeshpro@2.0.1
-        m_AssetPath: Packages/com.unity.textmeshpro
-        m_Name: com.unity.textmeshpro
-        m_DisplayName: TextMesh Pro
-        m_Category: Text Rendering
-        m_Type: 
-        m_Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s
-          the perfect replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-          Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
-          along with a set of custom shaders; delivering substantial visual quality
-          improvements while giving users incredible flexibility when it comes to
-          text styling and texturing.
-
-
-          TextMesh Pro provides Improved Control over text formatting and layout with
-          features like character, word, line and paragraph spacing, kerning, justified
-          text, Links, over 30 Rich Text Tags available, support for Multi Font &
-          Sprites, Custom Styles and more.
-
-
-          Great performance. Since the geometry created by TextMesh Pro uses two triangles
-          per character just like Unity''s text components, this improved visual quality
-          and flexibility comes at no additional performance cost.
-
-
-
-          Special Notes:
-
-          ==========
-
-          This release requires .Net 4.x Scripting Runtime'
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.1.2
-          - 1.0.21
-          - 1.0.23
-          - 1.0.25
-          - 1.0.26
-          - 1.1.0
-          - 1.2.0
-          - 1.2.1
-          - 1.2.2
-          - 1.2.3
-          - 1.2.4
-          - 1.3.0-preview
-          - 1.3.0
-          - 1.4.0-preview.1b
-          - 1.4.0-preview.2a
-          - 1.4.0-preview.3a
-          - 1.4.0
-          - 1.4.1-preview.1
-          - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
-          - 2.0.0
-          - 2.0.1-preview.1
-          - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
-          m_Compatible:
-          - 0.1.2
-          - 1.0.21
-          - 1.0.23
-          - 1.0.25
-          - 1.0.26
-          - 1.1.0
-          - 1.2.0
-          - 1.2.1
-          - 1.2.2
-          - 1.2.3
-          - 1.2.4
-          - 1.3.0-preview
-          - 1.3.0
-          - 1.4.0-preview.1b
-          - 1.4.0-preview.2a
-          - 1.4.0-preview.3a
-          - 1.4.0
-          - 1.4.1-preview.1
-          - 1.4.1
-          - 1.5.0-preview.1
-          - 1.5.0-preview.2
-          - 2.0.0
-          - 2.0.1-preview.1
-          - 2.0.1
-          - 2.1.0-preview.1
-          - 2.1.0-preview.2
-          m_Recommended: 2.0.1
-        m_Dependencies:
-        - m_Name: com.unity.ugui
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ugui
-          m_Version: 1.0.0
-        m_Keywords:
-        - TextMeshPro
-        - TextMesh Pro
-        - Text
-        - SDF
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_DatePublishedTicks: 636933709630000000
-      IsInstalled: 0
     - Name: com.unity.timeline
       DisplayName: Unity Timeline
       _Version: 1.1.0
@@ -114692,9 +111117,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 711
+    x: 809
     y: 550
-    width: 305
+    width: 349
     height: 255
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -114702,7 +111127,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 76fbffff
+      m_ExpandedIDs: e8f9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -114747,9 +111172,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1018
+    x: 1160
     y: 75
-    width: 417
+    width: 275
     height: 730
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
