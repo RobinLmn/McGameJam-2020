@@ -552,6 +552,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -618,7 +619,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.68994254, y: -0, z: -0, w: 0.7238642}
-  m_LocalPosition: {x: -0.24999996, y: 3.55, z: -0.04999993}
+  m_LocalPosition: {x: -0.24999996, y: 16, z: -0.04999993}
   m_LocalScale: {x: 1, y: 1.0001332, z: 1.0001333}
   m_Children: []
   m_Father: {fileID: 917945787}
@@ -644,6 +645,24 @@ MonoBehaviour:
   pitch: 2
   yawSpeed: 100
   currentZoom: 10
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a07a0d2b8465147429cd855b51b89704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g_fogOfWar: {fileID: 1725560999}
+  g_player: {fileID: 917945787}
+  g_fogLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  g_radius: 5
 --- !u!1 &1389889993
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,7 +768,7 @@ GameObject:
   - component: {fileID: 1725561002}
   - component: {fileID: 1725561001}
   - component: {fileID: 1725561000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FOW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -787,7 +806,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a38c1368330f171469dd06d1145c4e53, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
