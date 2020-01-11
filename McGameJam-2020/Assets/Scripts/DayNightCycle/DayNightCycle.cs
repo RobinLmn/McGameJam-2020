@@ -29,10 +29,46 @@ public class DayNightCycle : MonoBehaviour
             return g_timeOfDay;
         }
     }
+
+    private float g_timeScale;
     #endregion
 
-    #region Methods
+    #region Base Methods
 
+    private void Update()
+    {
+        if (pause != true)
+        {
+            //UpdateTimeScale();
+            UpdateTime();
+        }
+    }
+
+    #endregion
+
+
+    #region Custom Methods
+
+    /// <summary>
+    /// Allows to convert real time to game time
+    /// </summary>
+    private float UpdateTimeScale()
+    {
+        g_timeScale = 24 / (g_targetDayLength / 60);
+        return g_timeScale;
+    }
+
+    private void UpdateTime()
+    {
+        g_timeOfDay += Time.deltaTime * UpdateTimeScale() / 86400;
+        Debug.Log(g_timeOfDay);
+
+        if (g_timeOfDay > 1)
+        {
+            g_timeOfDay = 0;
+
+        }
+    }
 
     #endregion
 
