@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         if (platform==true) {
@@ -43,7 +43,9 @@ public class PlayerController : MonoBehaviour
             Vector3 movement = transform.right * horInput + transform.forward * verInput ;//transform.right* horInput+ transform.forward*verInput;
             Vector3 moveDestination = transform.position + movement;
             GetComponent<NavMeshAgent>().destination = moveDestination;
-            transform.Rotate(Vector3.up* horInput *rotatingSpeed*Time.deltaTime);
+			Debug.Log(horInput);
+			//transform.Rotate(Vector3.up* horInput *rotatingSpeed*Time.deltaTime);
+			GetComponent<Rigidbody>().AddTorque(transform.up * rotatingSpeed * horInput);
 
         }
 
