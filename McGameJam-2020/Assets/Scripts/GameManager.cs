@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     /// Boolean used to check if player is dead
     /// </summary>
     [SerializeField]
-    bool g_playerDead = false;
+    public bool g_playerDead = false;
 
     #endregion
 
