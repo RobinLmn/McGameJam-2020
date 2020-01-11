@@ -10,6 +10,11 @@ public class DayNightCycle : MonoBehaviour
     /// A complete circle angle
     /// </summary>
     private const int ROUND = 360;
+    [SerializeField]
+    private const float BASEINTENSITY = 1;
+
+    [SerializeField]
+    private const float VARIATION = 1.5f;
 
     public bool pause = false;
 
@@ -41,6 +46,16 @@ public class DayNightCycle : MonoBehaviour
     [SerializeField]
     private Transform g_sunRotation;
     private float g_timeScale;
+
+    [SerializeField]
+    private Light g_sun;
+
+    /// <summary>
+    /// Mesure intensity of the sunlight
+    /// </summary>
+    private float g_intensity;
+
+    
     #endregion
 
     #region Base Methods
@@ -53,6 +68,7 @@ public class DayNightCycle : MonoBehaviour
             UpdateTime();
 
             SunRotation();
+            SunIntensity();
         }
     }
 
@@ -89,6 +105,17 @@ public class DayNightCycle : MonoBehaviour
     {
         float m_sunAngle = time * ROUND;
         g_sunRotation.transform.rotation = Quaternion.Euler(new Vector3(m_sunAngle, 0, 0));
+    }
+
+    /// <summary>
+    /// Manage and Calculate sun intensity
+    /// </summary>
+    private void SunIntensity()
+    {
+        g_intensity = Vector3.Dot(g_sun.transform.forward, Vector3.down);
+        g_intensity = Mathf.Clamp01(g_intensity);
+
+        g_sun.intensity = g_intensity * VARIATION * BASEINTENSITY;
     }
 
     #endregion
