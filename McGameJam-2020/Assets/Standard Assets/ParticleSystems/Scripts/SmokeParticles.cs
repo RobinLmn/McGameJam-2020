@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -16,3 +17,23 @@ namespace UnityStandardAssets.Effects
         }
     }
 }
+=======
+using System;
+using UnityEngine;
+using Random = UnityEngine.Random;
+
+namespace UnityStandardAssets.Effects
+{
+    public class SmokeParticles : MonoBehaviour
+    {
+        public AudioClip[] extinguishSounds;
+
+
+        private void Start()
+        {
+            GetComponent<AudioSource>().clip = extinguishSounds[Random.Range(0, extinguishSounds.Length)];
+            GetComponent<AudioSource>().Play();
+        }
+    }
+}
+>>>>>>> cd5cf1ee40b60a8cc87daa3d731578051e238472
