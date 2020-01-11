@@ -21,7 +21,7 @@ public class Interactable : MonoBehaviour
         PickUp();
     }
 
-    void Update()
+    public virtual void Update()
     {
         // If we are currently being focused
         // and we haven't already interacted with the object
@@ -30,8 +30,10 @@ public class Interactable : MonoBehaviour
             // If we are close enough
             float distance = Vector3.Distance(player.position, interactionTransform.position);
 
+            Debug.Log(distance);
             if (distance <= radius)
             {
+                Debug.Log("Detected player in range");
                 // Interact with the object
                 Interact();
                 hasInteracted = true;
