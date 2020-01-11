@@ -9,6 +9,7 @@ McGameJam-2020/[Bb]uild/
 McGameJam-2020/[Bb]uilds/
 McGameJam-2020/[Ll]ogs/
 McGameJam-2020/[Mm]emoryCaptures/
+McGameJam-2020/[Ll]ibrary/[Aa]rtifacts/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
