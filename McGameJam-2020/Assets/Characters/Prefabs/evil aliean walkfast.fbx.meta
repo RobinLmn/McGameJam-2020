@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2921e9d24e0fb4b249e244075f955aa0
+guid: 093e0fbc34fdf654d9beffb359ca11fa
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
@@ -13,28 +13,14 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Black
-    second: {fileID: 2100000, guid: 3e82e822eb985fb4f93c6fdc5ecc3dff, type: 2}
+      name: Material
+    second: {fileID: -876546973899608171, guid: f5bdb8cde58147748b2e04721ccb2965,
+      type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Gold
-    second: {fileID: 2100000, guid: 91e943d2a1b1fd843a3791c86cbd2615, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WHITE
-    second: {fileID: 2100000, guid: 61900281c7c688945ad9288270258c17, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: arm patches
-    second: {fileID: 2100000, guid: 2906d41fce1a69b47a6c79f097771589, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: front patch
-    second: {fileID: 7024514063238235392, guid: a59e36660a9c245678cb9d021bab09ed,
+      name: Material.001
+    second: {fileID: -6478536213147159724, guid: f5bdb8cde58147748b2e04721ccb2965,
       type: 3}
   materials:
     importMaterials: 1
@@ -54,8 +40,8 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 1
-    animationCompression: 3
+    importConstraints: 0
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -68,7 +54,7 @@ ModelImporter:
       takeName: Armature|ArmatureAction
       internalID: 0
       firstFrame: 0
-      lastFrame: 29
+      lastFrame: 22
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -97,7 +83,7 @@ ModelImporter:
       takeName: Armature|ArmatureAction
       internalID: 0
       firstFrame: 0
-      lastFrame: 0.10000001
+      lastFrame: 1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -163,77 +149,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton:
-    - name: Astronaut7faster(Clone)
-      parentName: 
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Area
-      parentName: Astronaut7faster(Clone)
-      position: {x: -3.9153783, y: 8.712396, z: 0}
-      rotation: {x: 0.692867, y: 0.14119256, z: 0.14119256, w: 0.692867}
-      scale: {x: 909.1269, y: 909.1269, z: 909.12683}
-    - name: Cube.002
-      parentName: Astronaut7faster(Clone)
-      position: {x: -0, y: -3.5199711, z: 0}
-      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-      scale: {x: 100, y: 100, z: 100}
-    - name: Armature
-      parentName: Astronaut7faster(Clone)
-      position: {x: -0, y: -0.48596972, z: 0}
-      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-      scale: {x: 100, y: 100, z: 100}
-    - name: Bone
-      parentName: Armature
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Bone_end
-      parentName: Bone
-      position: {x: -0, y: 0.025906265, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Bone.001
-      parentName: Armature
-      position: {x: 2.5144303e-25, y: 0.016557397, z: 0.025906265}
-      rotation: {x: -0.4005095, y: -0.58274543, z: -0.40050972, w: -0.5827451}
-      scale: {x: 1, y: 0.99999994, z: 1}
-    - name: Bone.001_end
-      parentName: Bone.001
-      position: {x: -0, y: 0.029720046, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Bone.002
-      parentName: Armature
-      position: {x: 2.5144303e-25, y: -0.016557397, z: 0.025906265}
-      rotation: {x: 0.49999988, y: -0.5000001, z: 0.5000001, w: -0.49999985}
-      scale: {x: 1, y: 0.99999994, z: 1}
-    - name: Bone.002_end
-      parentName: Bone.002
-      position: {x: -0, y: 0.029720046, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Bone.003
-      parentName: Armature
-      position: {x: 6.1269173e-18, y: -0.006377389, z: -0.0016869187}
-      rotation: {x: 0.49999988, y: -0.5000001, z: 0.5000001, w: -0.49999985}
-      scale: {x: 1, y: 0.99999994, z: 1}
-    - name: Bone.003_end
-      parentName: Bone.003
-      position: {x: -0, y: 0.029720046, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Bone.004
-      parentName: Armature
-      position: {x: 6.1269173e-18, y: 0.0064815697, z: -0.0016869187}
-      rotation: {x: 0.49999988, y: -0.5000001, z: 0.5000001, w: -0.49999985}
-      scale: {x: 1, y: 0.99999994, z: 1}
-    - name: Bone.004_end
-      parentName: Bone.004
-      position: {x: -0, y: 0.029720046, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -244,7 +160,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
