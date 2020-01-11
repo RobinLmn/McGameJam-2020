@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    private int oxStorage = 100;
+    public int oxStorage = 100;
     public float oxLevel;
     private float oxLossRate = 1;
+
+    public Bar ox_bar;
 
     private GameManager gm;
     public static PlayerManager instance;
@@ -18,8 +20,9 @@ public class PlayerManager : MonoBehaviour
 
     private void Start()
     {
+        ox_bar.max = oxStorage;
         gm = FindObjectOfType<GameManager>();
-        oxLevel = 100;
+        oxLevel = oxStorage;
     }
 
     private void FixedUpdate()
@@ -27,6 +30,7 @@ public class PlayerManager : MonoBehaviour
         if (oxLevel >= 0)
         {
             oxLevel -= oxLossRate * Time.deltaTime;
+            ox_bar.currVal = oxLevel;
         }
         else
         {

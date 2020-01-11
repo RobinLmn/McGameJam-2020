@@ -7,20 +7,19 @@ public class Bar : MonoBehaviour
 {
     // private float barFull = 1.0f;
     public int max;
-    private int currVal;
+    public float currVal;
     public Image barImage;
     // Start is called before the first frame update
     void Start()
     {
+
         currVal = max;
     }
 
     // Update is called once per frame
     void Update()
     {
-        changeBarHealth(-1);
-        if (currVal < 0) 
-            currVal = max;
+ 
         barImage.fillAmount = currVal * 1.0f / max;
         
     }
