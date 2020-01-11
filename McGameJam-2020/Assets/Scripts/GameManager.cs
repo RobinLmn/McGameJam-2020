@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     /// Boolean used to determined if player filled victory conditions
     /// </summary>
     [SerializeField]
-    bool g_gameEnd = false;
+    public bool g_gameEnd = false;
 
     /// <summary>
     /// Boolean used to check if player is dead
