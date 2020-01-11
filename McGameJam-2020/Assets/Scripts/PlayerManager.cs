@@ -8,6 +8,7 @@ public class PlayerManager : MonoBehaviour
     public float oxLevel;
     private float oxLossRate = 1;
 
+    private GameManager gm;
     public static PlayerManager instance;
 
     private void Awake()
@@ -17,6 +18,7 @@ public class PlayerManager : MonoBehaviour
 
     private void Start()
     {
+        gm = FindObjectOfType<GameManager>();
         oxLevel = 100;
     }
 
@@ -43,6 +45,7 @@ public class PlayerManager : MonoBehaviour
 
     private void Die()
     {
+        gm.g_playerDead = true;
         Debug.Log("Player has died");
     }
 }
