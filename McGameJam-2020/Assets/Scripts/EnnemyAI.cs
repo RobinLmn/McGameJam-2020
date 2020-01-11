@@ -7,17 +7,22 @@ public class EnnemyAI : MonoBehaviour
 {
     public Transform player;
     public int radius = 1;
+    public int lookRadius = 4;
 
     void Update()
     {
-        GetComponent<NavMeshAgent>().destination = player.transform.position;
-
         float distance = Vector3.Distance(player.position, transform.position);
 
-        if (distance <= radius)
+        if (distance <= lookRadius)
         {
-            // Kill Player
-            PlayerManager.instance.Die();
+            GetComponent<NavMeshAgent>().destination = player.transform.position;
+
+
+            if (distance <= radius)
+            {
+                // Kill Player
+                PlayerManager.instance.Die();
+            }
         }
     }
 
@@ -25,7 +30,13 @@ public class EnnemyAI : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, radius);
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, lookRadius);
+
     }
+
+
 
 
 }
