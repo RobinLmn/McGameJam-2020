@@ -1,18 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnnemyAI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform player;
+    public int radius = 1;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        GetComponent<NavMeshAgent>().destination = player.transform.position;
+
+        float distance = Vector3.Distance(player.position, transform.position);
+
+        if (distance <= radius)
+        {
+            // Kill Player
+            PlayerManager.instance.Die();
+        }
     }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, radius);
+    }
+
+
 }
