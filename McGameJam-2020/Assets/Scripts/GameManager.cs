@@ -28,6 +28,10 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     public bool g_playerDead = false;
 
+    // Rocket mechanics 
+    private int RocketParts = 3;
+    public int invRocket;
+
     #endregion
 
     #region Base Methods
@@ -49,6 +53,11 @@ public class GameManager : MonoBehaviour
         if (g_gameEnd == true)
         {
             Victory();
+        }
+
+        if (invRocket == RocketParts)
+        {
+            g_gameEnd = true;
         }
     }
 
@@ -84,4 +93,6 @@ public class GameManager : MonoBehaviour
     }
 
     #endregion
+
+
 }
