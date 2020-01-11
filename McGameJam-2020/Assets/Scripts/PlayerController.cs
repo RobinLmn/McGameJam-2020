@@ -9,13 +9,15 @@ public class PlayerController : MonoBehaviour
     // public GameObject player;
     //PlayerMotor motor;
     Camera mainCam;
-    private bool platform = true;
+    private bool platform = false;
     public float rotatingSpeed;
+    private Light g_flashLight;
 
     void Start()
     {
         //   motor = GetComponent<PlayerMotor>();
         mainCam = Camera.main; //taking the main camera
+        g_flashLight = GetComponentInChildren<Light>();
     }
 
     // Update is called once per frame
@@ -43,6 +45,11 @@ public class PlayerController : MonoBehaviour
             GetComponent<NavMeshAgent>().destination = moveDestination;
             transform.Rotate(Vector3.up* horInput *rotatingSpeed*Time.deltaTime);
 
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            g_flashLight.enabled = !g_flashLight.enabled;
         }
     }
 

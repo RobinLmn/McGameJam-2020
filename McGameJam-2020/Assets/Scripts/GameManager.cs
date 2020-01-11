@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Timer before door is unlocked
     /// </summary>
-    float g_lockTimer = 10f;
+    float g_lockTimer = 60f;
 
     /// <summary>
     /// Boolean used to determined if player filled victory conditions
