@@ -5,6 +5,12 @@ using UnityEngine;
 public class DayNightCycle : MonoBehaviour
 {
     #region Variables
+
+    /// <summary>
+    /// A complete circle angle
+    /// </summary>
+    private const int ROUND = 360;
+
     public bool pause = false;
 
     [Header("Time")]
@@ -30,6 +36,10 @@ public class DayNightCycle : MonoBehaviour
         }
     }
 
+
+    [Header("Sun Light")]
+    [SerializeField]
+    private Transform g_sunRotation;
     private float g_timeScale;
     #endregion
 
@@ -41,6 +51,8 @@ public class DayNightCycle : MonoBehaviour
         {
             //UpdateTimeScale();
             UpdateTime();
+
+            SunRotation();
         }
     }
 
@@ -68,6 +80,15 @@ public class DayNightCycle : MonoBehaviour
             g_timeOfDay = 0;
 
         }
+    }
+
+    /// <summary>
+    /// Manage the sun rotation according to day time
+    /// </summary>
+    private void SunRotation()
+    {
+        float m_sunAngle = time * ROUND;
+        g_sunRotation.transform.rotation = Quaternion.Euler(new Vector3(m_sunAngle, 0, 0));
     }
 
     #endregion
