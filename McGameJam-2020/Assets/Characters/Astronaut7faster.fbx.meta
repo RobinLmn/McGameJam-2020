@@ -6,31 +6,30 @@ ModelImporter:
   - first:
       74: 4781951162920444690
     second: Armature|ArmatureAction
+  - first:
+      74: -3100369314251171874
+    second: Idle
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Black
-    second: {fileID: -1580535799172915004, guid: a59e36660a9c245678cb9d021bab09ed,
-      type: 3}
+    second: {fileID: 2100000, guid: 3e82e822eb985fb4f93c6fdc5ecc3dff, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Gold
-    second: {fileID: -905690159841262435, guid: a59e36660a9c245678cb9d021bab09ed,
-      type: 3}
+    second: {fileID: 2100000, guid: 91e943d2a1b1fd843a3791c86cbd2615, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: WHITE
-    second: {fileID: 2576956483768403278, guid: a59e36660a9c245678cb9d021bab09ed,
-      type: 3}
+    second: {fileID: 2100000, guid: 61900281c7c688945ad9288270258c17, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: arm patches
-    second: {fileID: -1805900152028896735, guid: a59e36660a9c245678cb9d021bab09ed,
-      type: 3}
+    second: {fileID: 2100000, guid: 2906d41fce1a69b47a6c79f097771589, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -70,6 +69,35 @@ ModelImporter:
       internalID: 0
       firstFrame: 0
       lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 0.10000001
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
