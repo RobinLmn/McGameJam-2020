@@ -5,6 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
+    public GameObject player;
+
     #region Variables
 
     /// <summary>
@@ -38,7 +40,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -46,6 +48,8 @@ public class GameManager : MonoBehaviour
     {
         if (g_playerDead == true)
         {
+            player.GetComponent<CharacterAnimator>().isDead = true;
+            Debug.Log("do you se ann animation");
             GameOver();
             
         }
@@ -90,6 +94,10 @@ public class GameManager : MonoBehaviour
     private void Victory()
     {
         Debug.Log("Victory");
+    }
+
+    public void kill() {
+        g_playerDead = true;
     }
 
     #endregion

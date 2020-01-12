@@ -10,12 +10,19 @@ public class PlayerManager : MonoBehaviour
 
     public Bar ox_bar;
 
+    [SerializeField]
     private GameManager gm;
     public static PlayerManager instance;
 
     private void Awake()
     {
         instance = this;
+        if (gm == null)
+        {
+            gm = FindObjectOfType<GameManager>();
+        }
+
+        oxLevel = oxStorage;
     }
 
     private void Start()
@@ -34,6 +41,7 @@ public class PlayerManager : MonoBehaviour
         }
         else
         {
+            Debug.Log(" no more oxygen" );
             Die();
         }
     }
@@ -49,7 +57,7 @@ public class PlayerManager : MonoBehaviour
 
     public void Die()
     {
-        gm.g_playerDead = true;
+        gm.kill();
         Debug.Log("Player has died");
     }
 }

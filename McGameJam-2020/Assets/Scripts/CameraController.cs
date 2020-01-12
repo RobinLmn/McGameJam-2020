@@ -10,6 +10,7 @@ public class CameraController : MonoBehaviour
     public float givenHeight = 20f;
     public GameObject target;
     public PlayerController controller;
+    public Camera shake;
 
     public Vector3 offset;
     public Vector3 offset1;
@@ -25,12 +26,17 @@ public class CameraController : MonoBehaviour
 
     public float currentZoom = 10f;
     private float horizontalYaw = 0f;
+    public float speed = 1f;
+
+
+   
 
     void Start()
     {
         
         offset1 = new Vector3(0f, -1f, 5f);
         platOffset2 = new Vector3(0f, -5f, 0.2f);
+
         if (platform == true)
         {
             offset = platOffset2;
@@ -46,21 +52,23 @@ public class CameraController : MonoBehaviour
 
     void Update()//get the values from the scroll wheel
     {
-        
+
         currentZoom -= Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
         currentZoom = Mathf.Clamp(currentZoom, minZoom, maxZoom);
         horizontalYaw -= Input.GetAxis("Horizontal") * yawSpeed * Time.deltaTime;
-
     }
+
+
     // Update is called once per frame
     void LateUpdate()
     {
-        /*if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))//right click
         {
-            StartCoroutine(Shake(.15f, .4f));
-        }*/
+            StartCoroutine(Shake(1f, 1f));
+            Debug.Log("you are SHAKINGGGGGGGGGGG");
+        }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             controller.SwitchPlatform();
             Switch();
@@ -87,12 +95,16 @@ public class CameraController : MonoBehaviour
             }
         }
         else {
-        
-           // controller.SetPlatform(false);
-            //offset = offset1;
+
+
+            // transform.position = target.transform.position - offset * currentZoom;
+            //transform.LookAt(target.transform.position + Vector3.up * pitch);
+
+
             //transform.position = target.transform.position - offset * currentZoom;
-            //transform.position *= currentZoom;
-             //transform.LookAt(target.transform.position + Vector3.up * pitch);
+            //transform.LookAt(target.transform.position + Vector3.up * pitch);
+
+
         }
 
     }
@@ -115,25 +127,27 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    /*public IEnumerator Shake(float time,float intensity)
+    public IEnumerator Shake(float time,float intensity)
     {
-        Vector3 originalPos = transform.localPosition;
+        
+        Vector3 originalPos = shake.transform.position;
         float elapsedTime = 0f;
 
         while (elapsedTime < time)
         {
             float x = Random.Range(-1, 1) * intensity;
             float y = Random.Range(-1, 1) * intensity;
+            float z = Random.Range(-1, 1) * intensity;
 
-            transform.localPosition = new Vector3(x, y, x);
+            shake.transform.localPosition = new Vector3(x, y, z);
             elapsedTime += Time.deltaTime;
 
             yield return null;
         }
 
-        transform.localPosition = originalPos;
+        shake.transform.localPosition = originalPos;
 
-    }*/
+    }
 
 
 
