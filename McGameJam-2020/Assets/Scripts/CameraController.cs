@@ -102,7 +102,9 @@ public class CameraController : MonoBehaviour
         {
             platform = false;//you have to set the camera once and than it follows the player
             offset = offset1;
-            transform.position = target.transform.position - offset * currentZoom;
+			Vector3 relback = target.transform.TransformDirection(Vector3.back);
+			offset = offset + relback;
+			transform.position = target.transform.position - offset * currentZoom;
             transform.LookAt(target.transform.position + Vector3.up * pitch);
         }
         else//false
