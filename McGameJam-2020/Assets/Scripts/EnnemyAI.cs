@@ -15,7 +15,7 @@ public class EnnemyAI : MonoBehaviour
 
         if (distance <= lookRadius)
         {
-            GetComponent<NavMeshAgent>().destination = player.transform.position;
+            GetComponent<NavMeshAgent>().destination = player.position;
 
 
             if (distance <= radius)
