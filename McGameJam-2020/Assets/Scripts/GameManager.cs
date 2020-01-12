@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
+    public GameObject player;
     #region Variables
 
     /// <summary>
@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Timer before door is unlocked
     /// </summary>
-    float g_lockTimer = 60f;
+    public float g_lockTimer = 61f;
 
     /// <summary>
     /// Boolean used to determined if player filled victory conditions
@@ -32,12 +32,15 @@ public class GameManager : MonoBehaviour
     private int RocketParts = 3;
     public int invRocket;
 
+    public bool door_unlocked;
+    
     #endregion
 
     #region Base Methods
     // Start is called before the first frame update
     void Start()
     {
+        invRocket = 0;
 
     }
 
@@ -46,8 +49,10 @@ public class GameManager : MonoBehaviour
     {
         if (g_playerDead == true)
         {
+            player.GetComponent<CharacterAnimator>().isDead = true;//the animator controller will be triggered
+            Debug.Log("do you se ann animation");
             GameOver();
-            
+
         }
 
         if (g_gameEnd == true)
@@ -90,6 +95,11 @@ public class GameManager : MonoBehaviour
     private void Victory()
     {
         Debug.Log("Victory");
+    }
+
+    public void kill()
+    {
+        g_playerDead = true;
     }
 
     #endregion

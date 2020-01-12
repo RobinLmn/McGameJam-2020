@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Oxygen
+  - Base
   layers:
   - Default
   - TransparentFX

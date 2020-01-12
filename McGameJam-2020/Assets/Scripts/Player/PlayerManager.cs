@@ -19,6 +19,11 @@ public class PlayerManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        if (gm == null)
+        {
+            gm = FindObjectOfType<GameManager>();
+        }
+        oxLevel = oxStorage;
         controller = gameObject.GetComponentInParent<PlayerController>();
     }
 
@@ -43,6 +48,7 @@ public class PlayerManager : MonoBehaviour
         }
         else
         {
+            Debug.Log("nor more O2");
             Die();
         }
     }
@@ -58,7 +64,9 @@ public class PlayerManager : MonoBehaviour
 
     public void Die()
     {
-        gm.g_playerDead = true;
+        gm.kill();
         Debug.Log("Player has died");
     }
+
+    
 }

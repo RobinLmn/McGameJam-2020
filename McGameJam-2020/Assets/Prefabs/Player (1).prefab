@@ -1,20 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &2294569947096538322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7851496140022484963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59cca87e309d841d198e01dcf35cbbdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  oxStorage: 100
-  oxLevel: -2.61
-  ox_bar: {fileID: 0}
 --- !u!1 &2294569947910380823
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,6 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotatingSpeed: 0.0001
+  sprint: 0
 --- !u!114 &2294569947910380818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,6 +104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.0001
+  isDead: 0
 --- !u!54 &2294569947910380819
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -287,13 +274,29 @@ MonoBehaviour:
   target: {fileID: 2294569947910380823}
   controller: {fileID: 2294569947910380829}
   offset: {x: 0, y: -1.5, z: 0.2}
+  offset1: {x: 0, y: 0, z: 0}
   vector2: {x: 0, y: 0, z: 0}
   zoomSpeed: 4
   minZoom: 0
   maxZoom: 500
-  pitch: 2
   yawSpeed: 100
   currentZoom: 100
+--- !u!114 &2294569947096538322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7851496140022484963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59cca87e309d841d198e01dcf35cbbdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oxStorage: 100
+  oxLevel: -2.61
+  controller: {fileID: 0}
+  ox_bar: {fileID: 0}
 --- !u!1001 &2294569946332223210
 PrefabInstance:
   m_ObjectHideFlags: 0
