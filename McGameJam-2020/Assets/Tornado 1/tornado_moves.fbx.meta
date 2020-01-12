@@ -1,8 +1,44 @@
 fileFormatVersion: 2
-guid: e91b84ae4e1214b4cbfd079d6837ade4
+guid: b8d9bf099d23d43119ed4902fde18685
 ModelImporter:
   serializedVersion: 26
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -88723805440604879
+    second: Cylinder|CylinderAction
+  - first:
+      74: -6242241587816052237
+    second: Cylinder|CylinderAction.001
+  - first:
+      74: 4372184618834679938
+    second: Cylinder|CylinderAction.002
+  - first:
+      74: -7186322825509058839
+    second: Cylinder|CylinderAction.003
+  - first:
+      74: 3602085371921796995
+    second: Cylinder.001|CylinderAction
+  - first:
+      74: 4639736067092989289
+    second: Cylinder.001|CylinderAction.001
+  - first:
+      74: -8648399014000687782
+    second: Cylinder.001|CylinderAction.002
+  - first:
+      74: 2481458044003104348
+    second: Cylinder.001|CylinderAction.003
+  - first:
+      74: 3149465394390671080
+    second: Cylinder.002|CylinderAction
+  - first:
+      74: -6974663243432506211
+    second: Cylinder.002|CylinderAction.001
+  - first:
+      74: 3229665247276425024
+    second: Cylinder.002|CylinderAction.002
+  - first:
+      74: -627778981787873907
+    second: Cylinder.002|CylinderAction.003
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -58,7 +94,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -87,7 +123,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
