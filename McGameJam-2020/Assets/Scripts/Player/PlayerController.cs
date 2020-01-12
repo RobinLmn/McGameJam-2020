@@ -12,12 +12,21 @@ public class PlayerController : MonoBehaviour
     private bool platform = false;
     public float rotatingSpeed;
     private Light g_flashLight;
+    NavMeshAgent g_player;
+    public bool sprint = false;
+    float horInput;
+    float verInput;
+
+    float speed = 1;
 
     void Start()
     {
         //   motor = GetComponent<PlayerMotor>();
         mainCam = Camera.main; //taking the main camera
         g_flashLight = GetComponentInChildren<Light>();
+        g_player = GetComponent<NavMeshAgent>();
+        horInput = Input.GetAxis("Horizontal");
+        verInput = Input.GetAxis("Vertical");
     }
 
     // Update is called once per frame
@@ -27,7 +36,7 @@ public class PlayerController : MonoBehaviour
         if (platform==true) {
             float horInput = Input.GetAxis("Horizontal");
             float verInput = Input.GetAxis("Vertical");
-            Vector3 movement = new Vector3(horInput, 0f, verInput);
+            Vector3 movement = new Vector3(horInput, 0f, verInput) * speed;
             Vector3 moveDestination = transform.position + movement;
             GetComponent<NavMeshAgent>().destination = moveDestination;
         }
@@ -35,17 +44,19 @@ public class PlayerController : MonoBehaviour
         {
 
 
-            float horInput = Input.GetAxis("Horizontal");
-            float verInput = Input.GetAxis("Vertical");
+            horInput = Input.GetAxis("Horizontal");
+            verInput = Input.GetAxis("Vertical");
             //Mathf.Clamp(verInput, 0f, 1f);
 
 
-            Vector3 movement = transform.right * horInput + transform.forward * verInput ;//transform.right* horInput+ transform.forward*verInput;
+            Vector3 movement = (transform.right * horInput + transform.forward * verInput) * speed;//transform.right* horInput+ transform.forward*verInput;
             Vector3 moveDestination = transform.position + movement;
             GetComponent<NavMeshAgent>().destination = moveDestination;
 			Debug.Log(horInput);
 			//transform.Rotate(Vector3.up* horInput *rotatingSpeed*Time.deltaTime);
 			GetComponent<Rigidbody>().AddTorque(transform.up * rotatingSpeed * horInput);
+
+            
 
         }
 
@@ -53,6 +64,19 @@ public class PlayerController : MonoBehaviour
         {
             g_flashLight.enabled = !g_flashLight.enabled;
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            sprint = true;
+            speed = 2;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            sprint = false;
+            speed = 1;
+        }
+
+        Debug.Log(platform);
     }
 
     public void SetPlatform(bool boo)

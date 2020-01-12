@@ -8,8 +8,11 @@ public class PlayerMovement: MonoBehaviour
 
     [SerializeField]
     public float speed;
+    private float sprintSpeed;
 
     Vector3 forward, right;
+    Vector3 rightMovement;
+    Vector3 upMovement;
 
     #region Singleton
 
@@ -32,6 +35,7 @@ public class PlayerMovement: MonoBehaviour
         forward = Vector3.Normalize(forward);
         // Right vector is the perp vector to forward : 
         right = Quaternion.Euler(new Vector3(0, 90, 0)) * forward;
+        sprintSpeed = speed * 10f;
     }
 
     void Update()
@@ -42,9 +46,22 @@ public class PlayerMovement: MonoBehaviour
 
     void Move()
     {
-        // Define the directions
-        Vector3 rightMovement = Time.deltaTime * right * speed * Input.GetAxis("Horizontal");
-        Vector3 upMovement = Time.deltaTime * forward * speed * Input.GetAxis("Vertical");
+        
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            sprintSpeed = speed * 10f;
+            // Define the directions
+            rightMovement = Time.deltaTime * right * sprintSpeed * Input.GetAxis("Horizontal");
+            upMovement = Time.deltaTime * forward * sprintSpeed * Input.GetAxis("Vertical");
+        }
+        else
+        {
+            // Define the directions
+            rightMovement = Time.deltaTime * right * speed * Input.GetAxis("Horizontal");
+            upMovement = Time.deltaTime * forward * speed * Input.GetAxis("Vertical");
+            
+        }
 
         // movement
         transform.position += upMovement;
