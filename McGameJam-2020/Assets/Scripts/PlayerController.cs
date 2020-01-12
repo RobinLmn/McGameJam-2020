@@ -5,20 +5,28 @@ using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
+       
     // Start is called before the first frame update
-    // public GameObject player;
-    //PlayerMotor motor;
+        // public GameObject player;
+        //PlayerMotor motor;
     Camera mainCam;
-    private float speed = 0.8f;
     private bool platform = false;
     public float rotatingSpeed;
+    public float speed;
     private Light g_flashLight;
+    NavMeshAgent g_player;
+    public bool sprint = false;
+    float horInput;
+    float verInput;
 
     void Start()
     {
         //   motor = GetComponent<PlayerMotor>();
         mainCam = Camera.main; //taking the main camera
         g_flashLight = GetComponentInChildren<Light>();
+        g_player = GetComponent<NavMeshAgent>();
+        horInput = Input.GetAxis("Horizontal");
+        verInput = Input.GetAxis("Vertical");
     }
 
     // Update is called once per frame
@@ -54,6 +62,19 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.L))
             {
                 g_flashLight.enabled = !g_flashLight.enabled;
+            }
+
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                sprint = true;
+                horInput = horInput * 2;
+                verInput = verInput * 2;
+            }
+            if (Input.GetKeyUp(KeyCode.LeftShift))
+            {
+                sprint = false;
+                horInput = horInput * 0.5f;
+                verInput = verInput * 0.5f;
             }
         }
     }
