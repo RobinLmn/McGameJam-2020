@@ -26,7 +26,7 @@ public class BaseInteract : Interactable
 
     public override void Interact()
     {
-        if (Input.GetKey("E"))
+        if (Input.GetKey(KeyCode.E))
         {
             Debug.Log("Entered Base");
         }

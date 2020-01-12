@@ -32,6 +32,8 @@ public class GameManager : MonoBehaviour
     private int RocketParts = 3;
     public int invRocket;
 
+    public GameObject cantgobackMessage;
+
     public bool door_unlocked;
     
     #endregion
@@ -41,6 +43,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         invRocket = 0;
+        cantgobackMessage.SetActive(false);
 
     }
 
