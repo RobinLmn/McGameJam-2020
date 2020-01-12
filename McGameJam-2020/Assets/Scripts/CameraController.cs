@@ -12,15 +12,15 @@ public class CameraController : MonoBehaviour
     public PlayerController controller;
 
     public Vector3 offset;
-    private Vector3 offset1;
-    private Vector3 offset2;
+    public Vector3 offset1;
+    private Vector3 platOffset2;
     public Vector3 vector2;
 
     public float zoomSpeed = 4f;
     public float minZoom = 5f;
     public float maxZoom = 15f;
 
-    public float pitch = 2f; //to adjust the look at to be at the head of the player
+    private float pitch = 10f; //to adjust the look at to be at the head of the player
     public float yawSpeed = 100f;
 
     public float currentZoom = 10f;
@@ -29,11 +29,11 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         
-        offset1 = new Vector3(0f, -3f, 4f);
-        offset2 = new Vector3(0f, -5f, 0.2f);
+        offset1 = new Vector3(0f, -1f, 5f);
+        platOffset2 = new Vector3(0f, -5f, 0.2f);
         if (platform == true)
         {
-            offset = offset2;
+            offset = platOffset2;
             controller.SetPlatform(true);
         }
         else {
@@ -55,10 +55,10 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        if (Input.GetMouseButtonDown(0))
+        /*if (Input.GetMouseButtonDown(0))
         {
             StartCoroutine(Shake(.15f, .4f));
-        }
+        }*/
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -68,7 +68,7 @@ public class CameraController : MonoBehaviour
 
         if (platform == true)
         {
-            offset = offset2;
+            offset = platOffset2;
             if (bigView == true)
             {
                 vector2.x = target.transform.position.x;
@@ -86,13 +86,14 @@ public class CameraController : MonoBehaviour
                 // transform.RotateAround(target.transform.position, Vector3.up, horizontalYaw);
             }
         }
-       // else {
+        else {
         
            // controller.SetPlatform(false);
             //offset = offset1;
-          //  transform.position = target.transform.position - offset * currentZoom;
-           // transform.LookAt(target.transform.position + Vector3.up * pitch);
-    //    }
+            //transform.position = target.transform.position - offset * currentZoom;
+            //transform.position *= currentZoom;
+             //transform.LookAt(target.transform.position + Vector3.up * pitch);
+        }
 
     }
     
@@ -110,11 +111,11 @@ public class CameraController : MonoBehaviour
         else//false
         {
             platform = true;
-            offset = offset2;
+            offset = platOffset2;
         }
     }
 
-    public IEnumerator Shake(float time,float intensity)
+    /*public IEnumerator Shake(float time,float intensity)
     {
         Vector3 originalPos = transform.localPosition;
         float elapsedTime = 0f;
@@ -132,7 +133,7 @@ public class CameraController : MonoBehaviour
 
         transform.localPosition = originalPos;
 
-    }
+    }*/
 
 
 
