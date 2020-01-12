@@ -4408,20 +4408,14 @@ PrefabInstance:
     - target: {fileID: 2294569948132939293, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
       propertyPath: maxZoom
-<<<<<<< HEAD
       value: 50
-=======
       value: 40
->>>>>>> f96e327bae93cb79a04cde46c93ae6c5b07929c7
       objectReference: {fileID: 0}
     - target: {fileID: 2294569948132939293, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
       propertyPath: currentZoom
-<<<<<<< HEAD
       value: 50
-=======
       value: 40
->>>>>>> f96e327bae93cb79a04cde46c93ae6c5b07929c7
       objectReference: {fileID: 0}
     - target: {fileID: 2294569948132939295, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
