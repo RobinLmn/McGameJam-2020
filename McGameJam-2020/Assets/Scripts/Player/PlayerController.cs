@@ -103,4 +103,15 @@ public class PlayerController : MonoBehaviour
     }
 
 
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Collision");
+
+        if (other.gameObject.CompareTag("Base"))
+        {
+            Debug.Log("Enter base");
+            BaseManagerScript.instance.isHome = true;
+        }
+    }
+
 }

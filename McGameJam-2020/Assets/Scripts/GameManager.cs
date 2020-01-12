@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Timer before door is unlocked
     /// </summary>
-    float g_lockTimer = 60f;
+    public float g_lockTimer = 61f;
 
     /// <summary>
     /// Boolean used to determined if player filled victory conditions
@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        invRocket = 3;
+        invRocket = 0;
 
     }
 
