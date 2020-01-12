@@ -1688,6 +1688,36 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 8691780276856062721, guid: f74d0b3a0c66b324f9840531071965a2, type: 3}
+--- !u!1 &672365690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 672365691}
+  m_Layer: 0
+  m_Name: SpawnPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &672365691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672365690}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 401, y: 0, z: 279}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1474610278}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &742877881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2853,7 +2883,7 @@ PrefabInstance:
     - target: {fileID: 501029456222532711, guid: 7fc5c8850fde24fc7ac503293e4f2235,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 147.65991
+      value: 147.66016
       objectReference: {fileID: 0}
     - target: {fileID: 7550706889320520770, guid: 7fc5c8850fde24fc7ac503293e4f2235,
         type: 3}
@@ -3889,6 +3919,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 243535612}
+--- !u!1 &1474610276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1474610278}
+  - component: {fileID: 1474610277}
+  m_Layer: 0
+  m_Name: TornadoEventSytem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1474610277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474610276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15a69529abd24f1aa25e2f5cc5b18da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - name: FirstTornado
+    point: {fileID: 672365691}
+    tornado: {fileID: 4360796060307596171, guid: c55491ad31cda4335993b1b75fe396f5,
+      type: 3}
+    init_time: 10
+    isActive: 0
+--- !u!4 &1474610278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474610276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 672365691}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1491118256 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ab4c8e89b24b244a0862b42207b6e0c3,
@@ -4955,6 +5036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d443d281768c69f4ab4382ff79b42ae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  g_timer: 0
   g_gameEnd: 0
   g_playerDead: 0
   invRocket: 0
