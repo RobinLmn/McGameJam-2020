@@ -43,6 +43,18 @@ public class EnnemyAI : MonoBehaviour
         }
     }
 
+    public void Unattack() {//method called when the player is dead 
+        Debug.Log("I was called");
+        agent.SetDestination(transform.position);
+       // Vector3 vector = (-1)*(player.position - transform.position);
+        //agent.SetDestination(transform.position + vector);
+        player = null;
+        //agent.SetDestination(transform.position - transform.forward);
+        agent.Move(-transform.forward);
+        
+      //  agent.SetDestination(transform.position);//stay in your spot
+    }
+
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
