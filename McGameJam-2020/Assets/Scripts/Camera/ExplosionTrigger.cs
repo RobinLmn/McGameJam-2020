@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class ExplosionTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    public CameraShake camershake;
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(1)){
+
+            StartCoroutine(camershake.Shake(1,1));
+        }    
     }
 }
