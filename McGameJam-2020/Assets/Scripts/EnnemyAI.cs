@@ -10,6 +10,13 @@ public class EnnemyAI : MonoBehaviour
     public int lookRadius = 4;
     public bool hasTargeted = false;
 
+    public NavMeshAgent agent;
+
+    private void Start()
+    {
+        agent = gameObject.GetComponent<NavMeshAgent>();
+    }
+
     private void Update()
     {
         float distance = Vector3.Distance(player.position, transform.position);
@@ -21,12 +28,16 @@ public class EnnemyAI : MonoBehaviour
 
         if (hasTargeted)
         {
-            GetComponent<NavMeshAgent>().destination = player.position;
+
+            agent.SetDestination(player.position);
+            Debug.Log(agent.path.status);
 
             if (distance <= radius)
             {
+               // agent.isStopped = true;
                 // Kill Player
                 PlayerManager.instance.Die();
+                hasTargeted = false;
             }
 
         }

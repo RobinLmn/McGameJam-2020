@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Timer before door is unlocked
     /// </summary>
-    float g_lockTimer = 60f;
+    public float g_lockTimer = 61f;
 
     /// <summary>
     /// Boolean used to determined if player filled victory conditions
@@ -32,12 +32,15 @@ public class GameManager : MonoBehaviour
     private int RocketParts = 3;
     public int invRocket;
 
+    public bool door_unlocked;
+    
     #endregion
 
     #region Base Methods
     // Start is called before the first frame update
     void Start()
     {
+        invRocket = 0;
 
     }
 
@@ -91,6 +94,8 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Victory");
     }
+
+
 
     #endregion
 
