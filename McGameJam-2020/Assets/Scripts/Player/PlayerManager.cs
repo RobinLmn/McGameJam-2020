@@ -8,6 +8,7 @@ public class PlayerManager : MonoBehaviour
     public float oxLevel;
     private float oxLossRate = 1;
     private int sprintLossRate = 2;
+    [SerializeField]
     PlayerController controller;
 
     public Bar ox_bar;
@@ -18,7 +19,7 @@ public class PlayerManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        controller = GetComponent<PlayerController>();
+        controller = gameObject.GetComponentInParent<PlayerController>();
     }
 
     private void Start()
