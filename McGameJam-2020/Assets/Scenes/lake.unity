@@ -1701,7 +1701,7 @@ TerrainCollider:
   m_GameObject: {fileID: 1680130050}
   m_Material: {fileID: 0}
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: e360bbf4cfb534d08b34be740958fbb0, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: e479f80be600943bb85dda22a73ad77e, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1680130052
 Terrain:
@@ -1712,7 +1712,7 @@ Terrain:
   m_GameObject: {fileID: 1680130050}
   m_Enabled: 1
   serializedVersion: 5
-  m_TerrainData: {fileID: 15600000, guid: e360bbf4cfb534d08b34be740958fbb0, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: e479f80be600943bb85dda22a73ad77e, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -2166,7 +2166,7 @@ PrefabInstance:
     - target: {fileID: 2294569947910380830, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 496.19
+      value: 830
       objectReference: {fileID: 0}
     - target: {fileID: 2294569947910380830, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
@@ -2176,7 +2176,7 @@ PrefabInstance:
     - target: {fileID: 2294569947910380830, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 557.4
+      value: 484
       objectReference: {fileID: 0}
     - target: {fileID: 2294569947910380830, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
@@ -2222,6 +2222,16 @@ PrefabInstance:
         type: 3}
       propertyPath: bigView
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294569948132939293, guid: cdfb10b07bab74b249383a42bf005fa4,
+        type: 3}
+      propertyPath: maxZoom
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294569948132939293, guid: cdfb10b07bab74b249383a42bf005fa4,
+        type: 3}
+      propertyPath: currentZoom
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2294569948132939295, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
