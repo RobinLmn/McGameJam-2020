@@ -26,8 +26,10 @@ public class BaseInteract : Interactable
 
     public override void Interact()
     {
-        gm.g_gameEnd = true;
-        base.Interact();
+        if (Input.GetKey("E"))
+        {
+            Debug.Log("Entered Base");
+        }
     }
 
     #endregion

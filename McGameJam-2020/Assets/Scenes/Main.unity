@@ -2764,6 +2764,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+--- !u!1 &1144728814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3459179016419839671, guid: 74b708c48a0534a1488c96faf79179c2,
+    type: 3}
+  m_PrefabInstance: {fileID: 742877881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1144728815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144728814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c5375878a524145afc8888dc3ce7c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 60
+  interactionTransform: {fileID: 742877882}
+  player: {fileID: 2294569946761588854}
+--- !u!114 &1144728816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144728814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c5375878a524145afc8888dc3ce7c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 3
+  interactionTransform: {fileID: 742877882}
+  player: {fileID: 0}
 --- !u!1001 &1144923254
 PrefabInstance:
   m_ObjectHideFlags: 0
