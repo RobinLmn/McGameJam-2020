@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class CleanStart : MonoBehaviour
 {
-
-    public GameObject ParticleObj; 
+    public CameraShake camershake;
+    public GameObject ParticleObj;
+    public Transform player;
+    private float distance;
+    private float percentage;
+    public float radius = 10f;
+    public float multiplier = 5f; 
 
     // Start is called before the first frame update
     void Start()
@@ -16,8 +21,29 @@ public class CleanStart : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if ((player.position-transform.position).magnitude<radius) {
+            //shake the camera get out of here
+            //if he is too close kill the player
+            distance = (player.position - transform.position).magnitude;
+            percentage = (radius - distance) / radius;
+            if (percentage>0.3f) {
+                //kill
+            }
+            else
+            {
+                float time = 0;
+                
+                StartCoroutine(camershake.Shake(percentage*multiplier, percentage*multiplier));//time than shake
+                while (time < percentage * multiplier) {
+                    time += Time.deltaTime;
+                }
+
+            }
+            
+            
+        }
         
-    }
+}
 
     IEnumerator Clean()
     {

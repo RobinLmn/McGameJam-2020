@@ -282,6 +282,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 70
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &188790505
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -309,6 +311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &210468700 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ab4c8e89b24b244a0862b42207b6e0c3,
@@ -514,7 +517,7 @@ PrefabInstance:
     - target: {fileID: 4429239477079432692, guid: a5785cad8a4da4d208121b45bcebeb27,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4429239477079432692, guid: a5785cad8a4da4d208121b45bcebeb27,
         type: 3}
@@ -709,7 +712,7 @@ PrefabInstance:
     - target: {fileID: 8592468129655161631, guid: 3960c63d29f5c5e469260b44fb35e742,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8592468129655161631, guid: 3960c63d29f5c5e469260b44fb35e742,
         type: 3}
@@ -778,6 +781,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 70
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &489235187
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -805,6 +810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &489235189
 Transform:
   m_ObjectHideFlags: 0
@@ -889,6 +895,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 50
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &584734078
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -916,6 +924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &584734080
 Transform:
   m_ObjectHideFlags: 0
@@ -1316,6 +1325,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 80
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &846406668
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1343,6 +1354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &846406670
 Transform:
   m_ObjectHideFlags: 0
@@ -1415,6 +1427,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 50
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &890497869
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1442,6 +1456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &890497871
 Transform:
   m_ObjectHideFlags: 0
@@ -1583,6 +1598,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 70
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &921763097
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1610,6 +1627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &938909701 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8592468129655161631, guid: 3960c63d29f5c5e469260b44fb35e742,
@@ -1661,7 +1679,7 @@ PrefabInstance:
     - target: {fileID: 1439276849592098713, guid: 96796159e0090495fa517d0ac80beedc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1439276849592098713, guid: 96796159e0090495fa517d0ac80beedc,
         type: 3}
@@ -2461,6 +2479,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 80
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &1254342948
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2488,6 +2508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &1254342950
 Transform:
   m_ObjectHideFlags: 0
@@ -2929,6 +2950,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 70
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &1499373780
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2956,6 +2979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!1001 &1507300268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3080,7 +3104,7 @@ PrefabInstance:
     - target: {fileID: 4429239477079432692, guid: a5785cad8a4da4d208121b45bcebeb27,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4429239477079432692, guid: a5785cad8a4da4d208121b45bcebeb27,
         type: 3}
@@ -3182,7 +3206,7 @@ PrefabInstance:
     - target: {fileID: 2355877360949618926, guid: dfcced6361d16426cabaf667d9c6aae7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2355877360949618926, guid: dfcced6361d16426cabaf667d9c6aae7,
         type: 3}
@@ -3288,6 +3312,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 70
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &1668018594
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3315,6 +3341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!1 &1680130050
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,6 +3711,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 40
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &1732206353
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3711,6 +3740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!1001 &1741245943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3761,7 +3791,7 @@ PrefabInstance:
     - target: {fileID: 8062829799341317936, guid: c3e8d45763bc54507882377f60ba19c1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8062829799341317936, guid: c3e8d45763bc54507882377f60ba19c1,
         type: 3}
@@ -3827,8 +3857,8 @@ Transform:
   - {fileID: 768373129}
   - {fileID: 1129383280}
   - {fileID: 1209978055}
-  - {fileID: 768642577}
   - {fileID: 1525235972}
+  - {fileID: 768642577}
   - {fileID: 938909701}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -3905,6 +3935,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 70
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &1773181600
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3932,6 +3964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!1001 &1832849959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4121,9 +4154,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d443d281768c69f4ab4382ff79b42ae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  g_timer: 0
+  g_lockTimer: 61
   g_gameEnd: 0
   g_playerDead: 0
   invRocket: 0
+  door_unlocked: 0
 --- !u!4 &1961211575
 Transform:
   m_ObjectHideFlags: 0
@@ -4333,12 +4370,17 @@ PrefabInstance:
     - target: {fileID: 2294569947910380828, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
       propertyPath: m_Speed
-      value: 1500
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2294569947910380828, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
       propertyPath: m_AutoTraverseOffMeshLink
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294569947910380828, guid: cdfb10b07bab74b249383a42bf005fa4,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 2294569947910380829, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
@@ -4348,7 +4390,7 @@ PrefabInstance:
     - target: {fileID: 2294569947910380830, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 830
+      value: 573.5
       objectReference: {fileID: 0}
     - target: {fileID: 2294569947910380830, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
@@ -4408,20 +4450,12 @@ PrefabInstance:
     - target: {fileID: 2294569948132939293, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
       propertyPath: maxZoom
-<<<<<<< HEAD
       value: 50
-=======
-      value: 40
->>>>>>> f96e327bae93cb79a04cde46c93ae6c5b07929c7
       objectReference: {fileID: 0}
     - target: {fileID: 2294569948132939293, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
       propertyPath: currentZoom
-<<<<<<< HEAD
       value: 50
-=======
-      value: 40
->>>>>>> f96e327bae93cb79a04cde46c93ae6c5b07929c7
       objectReference: {fileID: 0}
     - target: {fileID: 2294569948132939295, guid: cdfb10b07bab74b249383a42bf005fa4,
         type: 3}
@@ -4642,6 +4676,8 @@ MonoBehaviour:
   player: {fileID: 799419748}
   radius: 4
   lookRadius: 40
+  hasTargeted: 0
+  agent: {fileID: 0}
 --- !u!136 &2132102131
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4669,6 +4705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!1 &2132844504
 GameObject:
   m_ObjectHideFlags: 0

@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (GetComponent<CharacterAnimator>().isDead == false) { 
 
         if (platform==true) {
             float horInput = Input.GetAxis("Horizontal");
@@ -65,18 +66,19 @@ public class PlayerController : MonoBehaviour
             g_flashLight.enabled = !g_flashLight.enabled;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            sprint = true;
-            speed = 2;
+         if (Input.GetKeyDown(KeyCode.LeftShift))
+         {
+             sprint = true;
+              speed = 2;
+            }
+         if (Input.GetKeyUp(KeyCode.LeftShift))
+         {
+             sprint = false;
+             speed = 1;
+         }
+    
+          Debug.Log(platform);
         }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            sprint = false;
-            speed = 1;
-        }
-
-        Debug.Log(platform);
     }
 
     public void SetPlatform(bool boo)
@@ -102,5 +104,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Collision");
+
+        if (other.gameObject.CompareTag("Base"))
+        {
+            Debug.Log("Enter base");
+            BaseManagerScript.instance.isHome = true;
+        }
+    }
 
 }

@@ -10,27 +10,32 @@ public class Timer : MonoBehaviour
     public int timerStartVal;
     private float decrementTimer;
     public TextMeshProUGUI timerText;
+
+    public GameManager gm;
      
     // Start is called before the first frame update
     void Start()
     {
-        secondsLeft = timerStartVal;
-        decrementTimer = 0.0f;
+       /* secondsLeft = timerStartVal;
+        decrementTimer = 0.0f; */
     }
 
     // Update is called once per frame
     void Update()
     {
-        decrementTimer += Time.deltaTime;
+        /* decrementTimer += Time.deltaTime;
         if (decrementTimer > 1.0f) {
             decrementTimer -= 1.0f;
             this.Decrement();
             
         }
-        
+        */
+
+        timerText.text = "" + (int) gm.g_lockTimer;
+
     }
 
-    void Decrement() {
+    /* void Decrement() {
         secondsLeft--;
 
 
@@ -40,6 +45,6 @@ public class Timer : MonoBehaviour
         }
 
         
-        timerText.text = ""+secondsLeft;
-    }
+        timerText.text = ""+secondsLeft; */
+    
 }

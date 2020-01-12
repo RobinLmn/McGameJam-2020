@@ -9,6 +9,7 @@ public class CharacterAnimator : MonoBehaviour
     public float animationSmooth = 0.1f;
     NavMeshAgent agent;
     Animator animator;
+    public bool isDead = false;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -19,6 +20,11 @@ public class CharacterAnimator : MonoBehaviour
     void Update()
     {
         float speedPercent = agent.velocity.magnitude / agent.speed;
-        animator.SetFloat("speedPercent", speedPercent, animationSmooth, Time.deltaTime);
+        animator.SetFloat("speedPercent", speedPercent , animationSmooth, Time.deltaTime);
+        if (isDead == true)
+        {
+            animator.SetBool("isDead", true);//this will lauch the animation for dying.
+        }
+
     }
 }
