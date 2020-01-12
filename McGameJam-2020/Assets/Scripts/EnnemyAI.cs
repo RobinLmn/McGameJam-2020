@@ -34,9 +34,10 @@ public class EnnemyAI : MonoBehaviour
 
             if (distance <= radius)
             {
-                agent.isStopped = true;
+               // agent.isStopped = true;
                 // Kill Player
                 PlayerManager.instance.Die();
+                hasTargeted = false;
             }
 
         }

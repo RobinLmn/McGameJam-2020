@@ -350,7 +350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 5
   interactionTransform: {fileID: 99770541}
-  player: {fileID: 0}
+  player: {fileID: 2294569946761588854}
 --- !u!1 &169275657
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,8 +378,8 @@ Transform:
   m_LocalPosition: {x: -89, y: -284.39, z: 661.6825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 74148408}
   - {fileID: 1123816830}
+  - {fileID: 74148408}
   - {fileID: 473607584}
   - {fileID: 2051016848}
   - {fileID: 373540925}
@@ -677,17 +677,17 @@ PrefabInstance:
     - target: {fileID: 8592468129655161631, guid: 3960c63d29f5c5e469260b44fb35e742,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0176
+      value: 0.009
       objectReference: {fileID: 0}
     - target: {fileID: 8592468129655161631, guid: 3960c63d29f5c5e469260b44fb35e742,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2105
+      value: -0.018
       objectReference: {fileID: 0}
     - target: {fileID: 8592468129655161631, guid: 3960c63d29f5c5e469260b44fb35e742,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.005
+      value: -0.00251
       objectReference: {fileID: 0}
     - target: {fileID: 8592468129655161631, guid: 3960c63d29f5c5e469260b44fb35e742,
         type: 3}
@@ -1067,7 +1067,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373540924}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 358.3, y: 285.72, z: -87}
+  m_LocalPosition: {x: 358.3, y: 286.29, z: -87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 445143056}
@@ -1083,14 +1083,14 @@ NavMeshAgent:
   m_GameObject: {fileID: 373540924}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 900
-  m_Acceleration: 8
+  m_Radius: 0.01
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 300
-  m_StoppingDistance: 0
+  m_AngularSpeed: 280
+  m_StoppingDistance: 0.1
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -1458,10 +1458,10 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 900
-  m_Acceleration: 8
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 280
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -2262,10 +2262,10 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 280
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -2501,10 +2501,10 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 280
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -2946,13 +2946,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123816829}
   m_LocalRotation: {x: -0, y: -0, z: -0.14894985, w: 0.98884475}
-  m_LocalPosition: {x: 358.68, y: 298.96, z: -448.4}
+  m_LocalPosition: {x: 1007, y: 284.91, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1491118256}
   - {fileID: 1326076255}
   m_Father: {fileID: 169275658}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -17.132}
 --- !u!195 &1123816831
 NavMeshAgent:
@@ -2963,14 +2963,14 @@ NavMeshAgent:
   m_GameObject: {fileID: 1123816829}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 900
-  m_Acceleration: 8
+  m_Radius: 0.1
+  m_Speed: 25
+  m_Acceleration: 110
   avoidancePriority: 50
-  m_AngularSpeed: 300
-  m_StoppingDistance: 0
+  m_AngularSpeed: 280
+  m_StoppingDistance: 0.1
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -3158,7 +3158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147275395}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 948, y: 285.66, z: 81}
+  m_LocalPosition: {x: 948, y: 286.15, z: 81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1237061516}
@@ -3175,14 +3175,14 @@ NavMeshAgent:
   m_GameObject: {fileID: 1147275395}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 900
-  m_Acceleration: 8
+  m_Radius: 0.02
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 300
-  m_StoppingDistance: 0
+  m_AngularSpeed: 280
+  m_StoppingDistance: 0.2
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -3366,7 +3366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 5
   interactionTransform: {fileID: 778398912}
-  player: {fileID: 0}
+  player: {fileID: 2294569946761588854}
 --- !u!1001 &1229648816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3581,10 +3581,10 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 280
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -3707,7 +3707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317461752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 207, y: 285.53, z: -233}
+  m_LocalPosition: {x: 207, y: 285.87, z: -233}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 712810215}
@@ -3724,14 +3724,14 @@ NavMeshAgent:
   m_GameObject: {fileID: 1317461752}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 900
-  m_Acceleration: 8
+  m_Radius: 0.02
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 300
-  m_StoppingDistance: 0
+  m_AngularSpeed: 280
+  m_StoppingDistance: 0.2
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -4798,7 +4798,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531163397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1021, y: 285.5914, z: -113}
+  m_LocalPosition: {x: 1021, y: 286.05, z: -113}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 975494286}
@@ -4814,14 +4814,14 @@ NavMeshAgent:
   m_GameObject: {fileID: 1531163397}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 900
-  m_Acceleration: 8
+  m_Radius: 0.01
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_AngularSpeed: 280
+  m_StoppingDistance: 0.1
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -5366,7 +5366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734960130}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 524, y: 285.76, z: 263}
+  m_LocalPosition: {x: 524, y: 285.99, z: 263}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1866095256}
@@ -5384,14 +5384,14 @@ NavMeshAgent:
   m_GameObject: {fileID: 1734960130}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 900
-  m_Acceleration: 8
+  m_Radius: 0.02
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 300
-  m_StoppingDistance: 0
+  m_AngularSpeed: 280
+  m_StoppingDistance: 0.2
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -5842,7 +5842,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866358399}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 573, y: 285.46, z: -432}
+  m_LocalPosition: {x: 573, y: 285.77, z: -432}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1337812579}
@@ -5859,14 +5859,14 @@ NavMeshAgent:
   m_GameObject: {fileID: 1866358399}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 900
-  m_Acceleration: 100
+  m_Radius: 0.02
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 500
-  m_StoppingDistance: 0
+  m_AngularSpeed: 280
+  m_StoppingDistance: 0.2
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -6205,7 +6205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979156929}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 711.7, y: 285.8, z: -348}
+  m_LocalPosition: {x: 711.7, y: 286.03, z: -348}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 908232407}
@@ -6223,14 +6223,14 @@ NavMeshAgent:
   m_GameObject: {fileID: 1979156929}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 900
-  m_Acceleration: 8
+  m_Radius: 0.02
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 300
-  m_StoppingDistance: 0
+  m_AngularSpeed: 280
+  m_StoppingDistance: 0.2
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -6249,7 +6249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2294569946761588854}
-  radius: 4
+  radius: 2
   lookRadius: 50
   hasTargeted: 0
   agent: {fileID: 0}
@@ -6509,7 +6509,7 @@ PrefabInstance:
     - target: {fileID: 8592468129655161631, guid: 3960c63d29f5c5e469260b44fb35e742,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0242
+      value: 0.0131
       objectReference: {fileID: 0}
     - target: {fileID: 8592468129655161631, guid: 3960c63d29f5c5e469260b44fb35e742,
         type: 3}
@@ -6581,7 +6581,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083831086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 977, y: 285.5914, z: -149}
+  m_LocalPosition: {x: 977, y: 285.86, z: -149}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 382622369}
@@ -6597,14 +6597,14 @@ NavMeshAgent:
   m_GameObject: {fileID: 2083831086}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 900
-  m_Acceleration: 8
+  m_Radius: 0.01
+  m_Speed: 25
+  m_Acceleration: 120
   avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_AngularSpeed: 280
+  m_StoppingDistance: 0.1
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -6869,7 +6869,7 @@ PrefabInstance:
     - target: {fileID: 208297259666947638, guid: ae71d4d826c8a4f0989def57df040f2f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 208297259666947638, guid: ae71d4d826c8a4f0989def57df040f2f,
         type: 3}
@@ -6889,7 +6889,32 @@ PrefabInstance:
     - target: {fileID: 208297259666947639, guid: ae71d4d826c8a4f0989def57df040f2f,
         type: 3}
       propertyPath: m_AngularSpeed
-      value: 300
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 208297259666947639, guid: ae71d4d826c8a4f0989def57df040f2f,
+        type: 3}
+      propertyPath: m_Speed
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 208297259666947639, guid: ae71d4d826c8a4f0989def57df040f2f,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 208297259666947639, guid: ae71d4d826c8a4f0989def57df040f2f,
+        type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208297259666947639, guid: ae71d4d826c8a4f0989def57df040f2f,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 208297259666947639, guid: ae71d4d826c8a4f0989def57df040f2f,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 208297259666947641, guid: ae71d4d826c8a4f0989def57df040f2f,
         type: 3}
