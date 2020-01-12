@@ -6,7 +6,7 @@ public class OxygenItem : Interactable
 {
     public override void Interact()
     {
-        PlayerManager.instance.oxLevel += 10;
+        PlayerManager.instance.oxLevel += 30;
         base.Interact();
     }
 }
