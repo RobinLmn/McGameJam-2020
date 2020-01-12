@@ -14,8 +14,12 @@ public class PlayerController : MonoBehaviour
     private Light g_flashLight;
     NavMeshAgent g_player;
     public bool sprint = false;
+    public GameManager gm;
     float horInput;
     float verInput;
+
+    private float messageTimer;
+    private float messageTimeShown;
 
     float speed = 1;
 
@@ -27,11 +31,25 @@ public class PlayerController : MonoBehaviour
         g_player = GetComponent<NavMeshAgent>();
         horInput = Input.GetAxis("Horizontal");
         verInput = Input.GetAxis("Vertical");
+
+        messageTimeShown = 5.0f;
+        messageTimer = messageTimeShown;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+
+        // gm.cantgobackMessage.SetActive(true)
+        if (gm.cantgobackMessage.activeSelf) {
+            messageTimer -= Time.deltaTime;
+            if (messageTimer < 0) {
+                gm.cantgobackMessage.SetActive(false);
+                messageTimer = messageTimeShown;
+            }
+
+        }
+
         if (GetComponent<CharacterAnimator>().isDead == false) { 
 
         if (platform==true) {
@@ -105,14 +123,20 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    public void OnTriggerEnter(Collider other)
+    public void OnCollisionEnter(Collision other)
     {
         Debug.Log("Collision");
 
         if (other.gameObject.CompareTag("Base"))
         {
             Debug.Log("Enter base");
-            BaseManagerScript.instance.isHome = true;
+            if (gm.g_lockTimer < 0) {
+                gm.cantgobackMessage.SetActive(false);
+
+                BaseManagerScript.instance.isHome = true;
+            } else {
+                gm.cantgobackMessage.SetActive(true);
+            }
         }
     }
 

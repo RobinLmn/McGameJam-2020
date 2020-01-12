@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         invRocket = 0;
-        cantgobackMessage.SetActive(false);
+        // cantgobackMessage.SetActive(false);
 
     }
 

@@ -25,6 +25,7 @@ public class LoadNextScene : MonoBehaviour
     public void loadNext() {
         Debug.Log("Loaded next scene");
         SceneManager.LoadScene(nextSceneToLoad);
+        Time.timeScale = 1.0f;
     }
 
     public void loadPrev() {
