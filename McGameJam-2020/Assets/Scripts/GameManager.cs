@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public GameObject player;
+    public GameObject enemies;
     #region Variables
 
     /// <summary>
@@ -87,9 +88,14 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Trigger game over events
     /// </summary>
-    private void GameOver()
+    public void GameOver()
     {
         Debug.Log("Game Over");
+        for (int i = 0; i < enemies.transform.childCount; i++)
+        {
+            enemies.transform.GetChild(i).gameObject.GetComponent<EnnemyAI>().Unattack();
+        }
+        
     }
 
     /// <summary>

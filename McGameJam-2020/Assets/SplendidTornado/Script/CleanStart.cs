@@ -27,7 +27,7 @@ public class CleanStart : MonoBehaviour
             distance = (player.position - transform.position).magnitude;
             percentage = (radius - distance) / radius;
             if (percentage>0.3f) {
-                //kill
+                PlayerManager.instance.Die();
             }
             else
             {
