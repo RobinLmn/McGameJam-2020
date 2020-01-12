@@ -5,13 +5,10 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 4781951162920444690
-    second: run
+    second: Armature|ArmatureAction
   - first:
       74: -3100369314251171874
     second: Idle
-  - first:
-      74: -1246731831762816583
-    second: Idle (1)
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -56,7 +53,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 1
+    importAnimatedCustomProperties: 0
     importConstraints: 1
     animationCompression: 3
     animationRotationError: 0.5
@@ -67,7 +64,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: run
+      name: Armature|ArmatureAction
       takeName: Armature|ArmatureAction
       internalID: 0
       firstFrame: 0
