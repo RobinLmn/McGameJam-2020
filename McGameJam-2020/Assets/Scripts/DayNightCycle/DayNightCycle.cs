@@ -92,7 +92,6 @@ public class DayNightCycle : MonoBehaviour
     private void UpdateTime()
     {
         g_timeOfDay += Time.deltaTime * UpdateTimeScale() / 86400;
-        Debug.Log(g_timeOfDay);
 
         if (g_timeOfDay > 1)
         {
