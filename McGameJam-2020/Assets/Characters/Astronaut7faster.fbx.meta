@@ -9,6 +9,9 @@ ModelImporter:
   - first:
       74: -3100369314251171874
     second: Idle
+  - first:
+      74: -1246731831762816583
+    second: Idle (1)
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -53,7 +56,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
+    importAnimatedCustomProperties: 1
     importConstraints: 1
     animationCompression: 3
     animationRotationError: 0.5

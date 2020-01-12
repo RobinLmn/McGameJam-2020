@@ -10,7 +10,7 @@ public class ExplosionTrigger : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1)){
 
-            StartCoroutine(camershake.Shake(1,1));
+            PlayerManager.instance.Die();
         }    
     }
 }

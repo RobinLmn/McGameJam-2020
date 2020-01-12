@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
+    public GameObject player;
     #region Variables
 
     /// <summary>
@@ -49,8 +49,10 @@ public class GameManager : MonoBehaviour
     {
         if (g_playerDead == true)
         {
+            player.GetComponent<CharacterAnimator>().isDead = true;//the animator controller will be triggered
+            Debug.Log("do you se ann animation");
             GameOver();
-            
+
         }
 
         if (g_gameEnd == true)
@@ -95,7 +97,10 @@ public class GameManager : MonoBehaviour
         Debug.Log("Victory");
     }
 
-
+    public void kill()
+    {
+        g_playerDead = true;
+    }
 
     #endregion
 
