@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tornado_material
+  m_Name: black_smoke
   m_Shader: {fileID: -6465566751694194690, guid: c8246cdfbfbe14dca8b5006460140f9c,
     type: 3}
   m_ShaderKeywords: 
@@ -21,15 +21,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_5084DA3F: 0.002
-    - Vector1_6B9961DA: 0.19
-    - Vector1_9EAB2283: 10
-    - Vector1_AE9280D6: 10
-    - Vector1_D190123D: 70
-    - Vector1_E204782: 2
-    - Vector1_F3D84CA: 8
+    - Vector1_5084DA3F: 0
+    - Vector1_6B9961DA: 0.07
+    - Vector1_9EAB2283: 0
+    - Vector1_AE9280D6: 20
+    - Vector1_D190123D: 0
+    - Vector1_E204782: 5
+    - Vector1_F3D84CA: 0
     m_Colors:
-    - Color_8E241823: {r: 0.5, g: 0.3466981, b: 0.3466981, a: 0}
-    - Vector2_8191F130: {r: 0.2, g: 10, b: 0, a: 0}
-    - Vector2_B4CE100B: {r: -1, g: 1, b: 0, a: 0}
-    - Vector2_BCCDEF37: {r: 0.04, g: 0.05, b: 0.05, a: 0}
+    - Color_8E241823: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_8191F130: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - Vector2_B4CE100B: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_BCCDEF37: {r: 0.5, g: 0.5, b: 0, a: 0}
