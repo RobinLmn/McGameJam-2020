@@ -269,6 +269,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab4c8e89b24b244a0862b42207b6e0c3, type: 3}
+--- !u!1 &330788084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2294569947910380823, guid: cdfb10b07bab74b249383a42bf005fa4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2088693096}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &381936495 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 2294569948132939295, guid: cdfb10b07bab74b249383a42bf005fa4,
@@ -421,6 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &489235189
 Transform:
   m_ObjectHideFlags: 0
@@ -526,6 +533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &584734080
 Transform:
   m_ObjectHideFlags: 0
@@ -791,6 +799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &846406670
 Transform:
   m_ObjectHideFlags: 0
@@ -890,6 +899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &890497871
 Transform:
   m_ObjectHideFlags: 0
@@ -1247,6 +1257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSmooth: 0.1
+  isDead: 0
 --- !u!4 &1254342950
 Transform:
   m_ObjectHideFlags: 0
@@ -2093,6 +2104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d443d281768c69f4ab4382ff79b42ae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330788084}
   g_gameEnd: 0
   g_playerDead: 0
   invRocket: 0
