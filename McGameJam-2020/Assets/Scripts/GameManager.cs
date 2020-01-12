@@ -32,12 +32,15 @@ public class GameManager : MonoBehaviour
     private int RocketParts = 3;
     public int invRocket;
 
+    public bool door_unlocked;
+    
     #endregion
 
     #region Base Methods
     // Start is called before the first frame update
     void Start()
     {
+        invRocket = 3;
 
     }
 
@@ -91,6 +94,8 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Victory");
     }
+
+
 
     #endregion
 

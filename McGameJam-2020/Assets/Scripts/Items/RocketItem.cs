@@ -12,7 +12,6 @@ public class RocketItem : Interactable
         gm = FindObjectOfType<GameManager>();
     }
 
-
     public override void Interact()
     {
         gm.invRocket++;
