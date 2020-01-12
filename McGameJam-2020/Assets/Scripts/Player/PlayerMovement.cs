@@ -35,7 +35,7 @@ public class PlayerMovement: MonoBehaviour
         forward = Vector3.Normalize(forward);
         // Right vector is the perp vector to forward : 
         right = Quaternion.Euler(new Vector3(0, 90, 0)) * forward;
-        sprintSpeed = speed * 1.5f;
+        sprintSpeed = speed * 10f;
     }
 
     void Update()
@@ -50,6 +50,7 @@ public class PlayerMovement: MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
+            sprintSpeed = speed * 10f;
             // Define the directions
             rightMovement = Time.deltaTime * right * sprintSpeed * Input.GetAxis("Horizontal");
             upMovement = Time.deltaTime * forward * sprintSpeed * Input.GetAxis("Vertical");
@@ -59,6 +60,7 @@ public class PlayerMovement: MonoBehaviour
             // Define the directions
             rightMovement = Time.deltaTime * right * speed * Input.GetAxis("Horizontal");
             upMovement = Time.deltaTime * forward * speed * Input.GetAxis("Vertical");
+            
         }
 
         // movement

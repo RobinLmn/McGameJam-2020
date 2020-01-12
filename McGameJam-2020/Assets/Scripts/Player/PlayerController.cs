@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     float horInput;
     float verInput;
 
+    float speed = 1;
+
     void Start()
     {
         //   motor = GetComponent<PlayerMotor>();
@@ -34,7 +36,7 @@ public class PlayerController : MonoBehaviour
         if (platform==true) {
             float horInput = Input.GetAxis("Horizontal");
             float verInput = Input.GetAxis("Vertical");
-            Vector3 movement = new Vector3(horInput, 0f, verInput);
+            Vector3 movement = new Vector3(horInput, 0f, verInput) * speed;
             Vector3 moveDestination = transform.position + movement;
             GetComponent<NavMeshAgent>().destination = moveDestination;
         }
@@ -47,12 +49,14 @@ public class PlayerController : MonoBehaviour
             //Mathf.Clamp(verInput, 0f, 1f);
 
 
-            Vector3 movement = transform.right * horInput + transform.forward * verInput ;//transform.right* horInput+ transform.forward*verInput;
+            Vector3 movement = (transform.right * horInput + transform.forward * verInput) * speed;//transform.right* horInput+ transform.forward*verInput;
             Vector3 moveDestination = transform.position + movement;
             GetComponent<NavMeshAgent>().destination = moveDestination;
 			Debug.Log(horInput);
 			//transform.Rotate(Vector3.up* horInput *rotatingSpeed*Time.deltaTime);
 			GetComponent<Rigidbody>().AddTorque(transform.up * rotatingSpeed * horInput);
+
+            
 
         }
 
@@ -64,15 +68,15 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             sprint = true;
-            horInput = horInput * 2;
-            verInput = verInput * 2;
+            speed = 2;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             sprint = false;
-            horInput = horInput * 0.5f;
-            verInput = verInput * 0.5f;
+            speed = 1;
         }
+
+        Debug.Log(platform);
     }
 
     public void SetPlatform(bool boo)
