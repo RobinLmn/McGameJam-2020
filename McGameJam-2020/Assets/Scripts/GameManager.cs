@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Gloabl timer to keep track of time
     /// </summary>
-    float g_timer;
+    public float g_timer;
     /// <summary>
     /// Timer before door is unlocked
     /// </summary>

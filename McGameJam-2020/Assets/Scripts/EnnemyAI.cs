@@ -8,21 +8,27 @@ public class EnnemyAI : MonoBehaviour
     public Transform player;
     public int radius = 1;
     public int lookRadius = 4;
+    public bool hasTargeted = false;
 
-    void Update()
+    private void Update()
     {
         float distance = Vector3.Distance(player.position, transform.position);
 
         if (distance <= lookRadius)
         {
-            GetComponent<NavMeshAgent>().destination = player.position;
+            hasTargeted = true;
+        }
 
+        if (hasTargeted)
+        {
+            GetComponent<NavMeshAgent>().destination = player.position;
 
             if (distance <= radius)
             {
                 // Kill Player
                 PlayerManager.instance.Die();
             }
+
         }
     }
 

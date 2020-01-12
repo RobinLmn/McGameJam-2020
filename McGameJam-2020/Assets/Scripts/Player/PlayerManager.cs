@@ -7,6 +7,8 @@ public class PlayerManager : MonoBehaviour
     public int oxStorage = 100;
     public float oxLevel;
     private float oxLossRate = 1;
+    private int sprintLossRate = 2;
+    PlayerController controller;
 
     public Bar ox_bar;
 
@@ -16,6 +18,7 @@ public class PlayerManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        controller = GetComponent<PlayerController>();
     }
 
     private void Start()
@@ -27,9 +30,14 @@ public class PlayerManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (oxLevel >= 0)
+        if (oxLevel >= 0 && controller.sprint == false)
         {
             oxLevel -= oxLossRate * Time.deltaTime;
+            ox_bar.currVal = oxLevel;
+        }
+        else if (oxLevel >= 0 && controller.sprint == true)
+        {
+            oxLevel -= sprintLossRate * Time.deltaTime;
             ox_bar.currVal = oxLevel;
         }
         else
