@@ -5,5 +5,5 @@ For the trailer follow this link:<br>
 https://itch.io/jam/mcgame-jam-2020/rate/548624?before=2#post-1120652 or <br/>
 https://trottier-5105.itch.io/thank-u-next<br/><br>
 
-For the link to the actual game: <br/>
-https://github.com/lesupermomo/Thank-u-next
+For the link to the downloadable game ONLY : <br/>
+https://github.com/lesupermomo/Thank-u-next (ps enjoy!)
